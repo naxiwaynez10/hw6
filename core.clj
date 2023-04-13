@@ -29,9 +29,10 @@
   ([state expression w] (if-not (seq? expression)
                           (if (symbol? expression)
                             (assoc state :return
-                                   (if w
-                                     (get-in state [:environment w :bindings expression] (get (:environment state) expression))
-                                     (get (:environment state) expression)))
+                                   (get-in state [:environment expression] (get state expression)))
+                                  ;;  (if w
+
+                                  ;;    (get (:environment state) expression)))
 
                             (assoc state :return expression))
 
@@ -104,7 +105,8 @@
                                                                (:return (my-eval state
                                                                                  (nth expression 2) w)))
                                         :return (second expression)}
-                              (= f 'quote) {:return (second expression)}
+                              (= f 'quote) {:environment env
+                                            :return (second expression)}
 
                               (= f 'def) {:environment (assoc env
                                                               (second expression)
@@ -112,44 +114,52 @@
                                                                                 (nth expression 2))))
                                           :return (second expression)}
 
-                              ;; (= f 'defn) {:environment (assoc env
-                              ;;                                  (second expression)
-                              ;;                                  {:func (fn [& args]
-                              ;;                                           (for [[m n]
-                              ;;                                                 (mapv vector (remove nil? (map-indexed #(when (even? %) %2) args))
-                              ;;                                                       (remove nil? (map-indexed #(when (odd? %) %2) (nth expression 2))))]
-                              ;;                                             (swap! bindings m (:result (my-eval state n w))))
-                              ;;                                           (:return (my-eval state (nth expression 3) (second expression))))
-                              ;;                                   :bindings @bindings})
+                              (= f 'defn) {:environment (assoc env
+                                                               (second expression)
+                                                               (fn [& args]
+                                                                 (drop 2 expression)))
 
 
-                              ;;              :return (second expression)}
+                                           :return (second expression)}
 
-                              (= f 'let) {:return (do
-                                                    (swap! memory assoc :id (rand-int 4000))
+                              (= f 'let) {:environment env
+                                          :return (last (do
+                                                          (reset! memory (into {} (for [[m n] (mapv vector (remove nil? (map-indexed #(when (even? %) %2) (second expression))) (remove nil? (map-indexed #(when (odd? %) (:return (my-eval state  %2))) (second expression))))] {m n})))
 
-                                                    (reset! memory (into {} (for [[m n] (mapv vector (remove nil? (map-indexed #(when (even? %) %2) (second expression))) (remove nil? (map-indexed #(when (odd? %) %2) (second expression))))] {m n})))
-                                                    
-                                                    (reset! memory (conj (dissoc state :return) @memory))
-                                                    (:return (my-eval @memory (drop 2 expression)))
-                                                    )}
+                                                          (reset! memory (conj (dissoc state :return) @memory))
+                                                          
+                                                          (for [exp (drop 2 expression)]
+                                                            (:return (my-eval @memory exp)))))}
 
-                              (get env f) {:return ((get-in env [f :func]) (rest expression))}
+                              (get env f) {:environment env
+                                           :return (last (do
+
+                                                           (reset! memory 
+                                                           (into {} (for [[m n] (mapv vector (first ((get env f))) (rest expression))]
+                                                                      {m (:return (my-eval state n))}
+                                                                      )))
+                                                           (reset! memory (conj (dissoc state :return) @memory))
+                                                          ;;  (println @memory)
+                                                           (for [exp (rest ((get env f)))]
+                                                             (do (println ((get env f)) exp)
+                                                                 (:return (my-eval @memory exp))))))}
 
                               (= f 'cons) (if (= (first (last expression)) 'quote)
 
-                                            {:return (conj (:return (my-eval state (second expression))) (:return (my-eval state (nth expression 2))))}
+                                            {:environment env
+                                             :return (conj (:return (my-eval state (second expression))) (:return (my-eval state (nth expression 2))))}
 
                                             {:return (conj (into '() (:return (my-eval state (nth expression 2))))
                                                            (:return (my-eval state (second expression))))})
-                              (= f 'if) {:return ((fn []
+                              (= f 'if) {:environment env
+                                         :return (do
                                                     (when (boolean (:return (my-eval state (second expression))))
                                                       (:return (my-eval state (nth expression 2))))
 
                                                     (when-not (boolean (:return (my-eval state (second expression))))
-                                                      (:return (my-eval state (nth expression 3))))))}
+                                                      (:return (my-eval state (nth expression 3)))))}
 
-                              :else (try (assoc state :return (apply (resolve (symbol f)) (map #(if w (:return (my-eval state % w)) (:return (my-eval state %))) others)))
+                              :else (try (assoc state :return (apply (resolve (symbol f)) (map #(:return (my-eval state %)) others)))
                                          (catch Exception e
                                            (println "Error:" (.getMessage e)))))))))
 

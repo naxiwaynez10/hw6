@@ -4691,4 +4691,1910 @@ y
 H]=> ((println (+ a b))) {:environment {x 7, y 7}, :return y} {:environment {x 7, y 7}, a 5, b 9}
 Environment: nil
 nil
-H]=> 
+H]=> Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> Error: no conversion to symbol
+Environment: nil
+nil
+H]=> Environment: {x 8}
+x
+H]=> Environment: {x 8}
+8
+H]=> Error: no conversion to symbol
+Environment: nil
+nil
+H]=> ; Evaluating file: core.clj
+(repl)
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+H]=> clj꞉hw6.core꞉> 
+Error: no conversion to symbol
+Environment: nil
+nil
+H]=> Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+(repl)
+H]=> Environment: {x 7}
+x
+H]=> Environment: {x 7, z 7}
+z
+H]=> 7 7.0
+Environment: {x 7, z 7}
+nil
+H]=> Error: no conversion to symbol
+Environment: nil
+nil
+H]=> Error: no conversion to symbol
+Environment: nil
+nil
+H]=> Error: no conversion to symbol
+Environment: nil
+nil
+H]=> ; Evaluating file: core.clj
+(repl)
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+H]=> clj꞉hw6.core꞉> 
+Error: no conversion to symbol
+Environment: nil
+nil
+H]=> Error: no conversion to symbol
+Environment: nil
+nil
+H]=> Error: no conversion to symbol
+Environment: nil
+nil
+H]=> ; Evaluating file: core.clj
+(repl)
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+H]=> #'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+{:environment {}, a 5, b 9}
+Error: no conversion to symbol
+Environment: nil
+nil
+H]=> Environment: nil
+nil
+H]=> {a 5, b 9}
+Error: no conversion to symbol
+Environment: nil
+nil
+H]=> {a 5, b 9}
+Error: no conversion to symbol
+Environment: nil
+nil
+H]=> {a 5, b 9}
+Error: no conversion to symbol
+Environment: nil
+nil
+H]=> ; Evaluating file: core.clj
+(repl)
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+H]=> clj꞉hw6.core꞉> 
+{:environment {}, a 5, b 9}
+Error: no conversion to symbol
+Environment: nil
+nil
+H]=> {a 5, b 9}
+Error: no conversion to symbol
+Environment: nil
+nil
+H]=> {a 5, b 9}
+Error: no conversion to symbol
+Environment: nil
+nil
+H]=> Environment: {x 8}
+x
+H]=> Environment: {x 8, y 5}
+y
+H]=> 8 5
+Environment: {x 8, y 5}
+nil
+H]=> Environment: {x 8, y 5}
+13
+H]=> {:environment {x 8, y 5}, a 5, b 9}
+Error: no conversion to symbol
+Environment: nil
+nil
+H]=> ; Evaluating file: core.clj
+(repl)
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+H]=> clj꞉hw6.core꞉> 
+{:environment {}, a 5, b 9}
+14
+Environment: nil
+nil
+H]=> {a 5, b 9}
+14
+Environment: nil
+nil
+H]=> Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+(repl)
+H]=> {:environment {}, a 5, b 9}
+14
+Environment: nil
+nil
+H]=> Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> {:environment {}, a 5, b 9}
+14
+Environment: nil
+nil
+H]=> {a 5, b 9}
+14
+Environment: nil
+nil
+H]=> {a 5, b 9, c 12}
+26
+Environment: nil
+nil
+H]=> Environment: {x 0}
+x
+H]=> Environment: {x 0, y 1}
+y
+H]=> {:environment {x 0, y 1}, a 5, b 9, c 12}
+26
+Environment: nil
+nil
+H]=> {a 5, b 9, c 12}
+Environment: nil
+27
+H]=> {a 5, b 9, c 12}
+Environment: nil
+26.0
+H]=> ; Evaluating file: core.clj
+(repl)
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+H]=> clj꞉hw6.core꞉> 
+{:environment {}, a 5, b 9, c 12}
+26
+Environment: nil
+nil
+H]=> {a 5, b 9, c 12}
+26
+Environment: nil
+nil
+H]=> Environment: {x 1}
+x
+H]=> Environment: {x 1, y 2}
+y
+H]=> {:environment {x 1, y 2}, a 5, b 9, c 12}
+28
+Environment: nil
+nil
+H]=> {a 5, b 9, c 12, d (inc 4)}; Evaluating file: core.clj
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> Error: no conversion to symbol
+{:environment {}}
+Error: Cannot invoke "Object.getClass()" because "x" is null
+nil
+Environment: nil
+nil
+H]=> ; Evaluating file: core.clj
+(repl)
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+H]=> clj꞉hw6.core꞉> 
+Error: no conversion to symbol
+{:environment {}}
+Error: Cannot invoke "Object.getClass()" because "x" is null
+nil
+Environment: nil
+nil
+H]=> Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> {:environment {}, a 5, b 9, c 12}
+26
+Environment: nil
+nil
+H]=> {a 5, b 9, c 12, d 2}
+26
+Environment: nil
+nil
+H]=> {a 5, b 9, c 12, d 2}
+28
+Environment: nil
+nil
+H]=> {a 5, b 9, c 12, d 2}
+26
+Environment: nil
+nil
+H]=> {a 5, b 9, c 12, d 2}
+Environment: nil
+25
+H]=> Environment: {x 9}
+x
+H]=> Environment: {x 9, y 3}
+y
+H]=> {:environment {x 9, y 3}, a 5, b 9, c 12, d 2}
+Environment: nil
+28
+H]=> ; Evaluating file: core.clj
+; Evaluating file: core.clj
+(repl)
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+H]=> clj꞉hw6.core꞉> 
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> Environment: {x 1}
+x
+H]=> Environment: {x 1, y 2}
+y
+H]=> Environment: {x 1, y 2, z 3}
+z
+H]=> {:environment {x 1, y 2, z 3}, a 5, b 9, c 12, d 2}
+32
+Environment: {x 1, y 2, z 3}
+nil
+H]=> Environment: {x 1, y 2, z 3}
+1
+H]=> ; Evaluating file: core.clj
+`Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> {:environment {}, a 5, b 9, c 12, d 2}
+26
+Environment: {}
+nil
+H]=> {:environment {}, a 5, b 9, c 12, d 2}
+Error: Cannot invoke "Object.getClass()" because "x" is null
+nil
+Environment: {}
+nil
+H]=> {:environment {}, a 5, b 9, c 12, d 2, x 2, y 7, z 9}
+44
+Environment: {}
+nil
+H]=> ; Evaluating file: core.clj
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+(repl)
+H]=> {:environment {}, a 5, b 9, c 12, d 2}
+Error: no conversion to symbol
+Environment: {}
+nil
+H]=> ; Evaluating file: core.clj
+(repl)
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+H]=> clj꞉hw6.core꞉> 
+{:environment {}, a 5, b 9, c 12, d 2}
+Error: no conversion to symbol
+Environment: {}
+nil
+H]=> Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> {:environment {}, a 5, b 9, c 12, d 2}
+Error: no conversion to symbol
+Environment: {}
+nil
+H]=> {:environment {}, a 5, b 9, c 12, d 2, x 1, y 2, z 3}
+32
+Error: no conversion to symbol
+Environment: {}
+nil
+H]=> {:environment {}, a 5, b 9, c 12, d 2, x 1, y 2, z 3}
+32
+Error: no conversion to symbol
+Environment: {}
+nil
+H]=> {:environment {}, a 5, b 9, c 12, d 2, x 1, y 2, z 3}
+32
+Error: no conversion to symbol
+Environment: {}
+nil
+H]=> Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(); Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> {:environment {}, a 5, b 9, c 12, d 2, x 1, y 2, z 3}
+32
+Error: no conversion to symbol
+Environment: {}
+nil
+H]=> {:environment {}, a 5, b 9, c 12, d 2, x 1, y 2, z 3}
+32
+Error: no conversion to symbol
+Environment: {}
+nil
+H]=> {:environment {}, a 5, b 9, c 12, d 2, x 1, y 2, z 3}
+32
+Error: no conversion to symbol
+Environment: {}
+nil
+H]=> {:environment {}, a 5, b 9, c 12, d 2, x 1, y 2, z 3}
+32
+Error: no conversion to symbol
+Environment: {}
+nil
+H]=> {:environment {}, a 5, b 9, c 12, d 2, x 1, y 2, z 3}
+Error: no conversion to symbol
+Environment: {}
+nil
+H]=> {:environment {}, a 5, b 9, c 12, d 2, x 1, y 2, z 3}
+Error: no conversion to symbol
+Environment: {}
+nil
+H]=> ; Evaluating file: core.clj
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> {:environment {}, a 5, b 9, c 12, d 2, x 1, y 2, z 3} ((inc (+ a b c x y z)) (dec (+ a b c x y z)))
+Error: no conversion to symbol
+Environment: {}
+nil
+H]=> {:environment {}, a 5, b 9, c 12, d 2, x 1, y 2, z 3} ((inc (+ a b c x y z)) (dec (+ a b c x y z)))
+Error: no conversion to symbol
+Environment: {}
+nil
+H]=> ; Evaluating file: core.clj
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+(repl)
+H]=> {:environment {}, a 5, b 9, c 12, d 2, x 1, y 2, z 3} ((println (+ a b c x y z)) (dec (+ a b c x y z)))
+32
+Error: no conversion to symbol
+Environment: {}
+nil
+H]=> {:environment {}, a 5, b 9, c 12, d 2, x 1, y 2, z 3} ((println (+ a b c x y z)) (println (dec (+ a b c x y z))))
+32
+Error: no conversion to symbol
+Environment: {}
+nil
+H]=> {:environment {}, a 5, b 9, c 12, d 2, x 1, y 2, z 3} (println (dec (+ a b c x y z)))
+Error: no conversion to symbol
+Environment: {}
+nil
+H]=> {:environment {}, a 5, b 9, c 12, d 2, x 1, y 2, z 3} ((println (+ a b c x y z)))
+32
+Error: no conversion to symbol
+Environment: {}
+nil
+H]=> ; Execution error at hw6.core/repl (core.clj:170).
+; EOF while reading
+clj꞉hw6.core꞉> 
+(repl)
+H]=> {:environment {}, a 5, b 9, c 12, d 2, x 1, y 2, z 3} ((println (dec (+ a b c x y z))))
+31
+Error: no conversion to symbol
+Environment: {}
+nil
+H]=> {:environment {}, a 5, b 9, c 12, d 2, x 1, y 2, z 3} ((println (+ a b c x y z)) (println (dec (+ a b c x y z))))
+32
+Error: no conversion to symbol
+Environment: {}
+nil
+H]=> ; Evaluating file: core.clj
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> {:environment {}, a 5, b 9, c 12, d 2, x 1, y 2, z 3} ((println (+ a b c x y z)) (println (dec (+ a b c x y z))))
+32
+Error: no conversion to symbol
+Environment: {}
+nil
+H]=> {:environment {}, a 5, b 9, c 12, d 2, x 1, y 2, z 3} ((println (+ a b c x y z)) (println (dec (+ a b c x y z))))
+32
+Error: no conversion to symbol
+Environment: {}
+nil
+H]=> {:environment {}, a 5, b 9, c 12, d 2, x 1, y 2, z 3} ((println (+ a b c x y z)) (println (dec (+ a b c x y z))))
+32
+Error: no conversion to symbol
+Environment: {}
+nil
+H]=> Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> {:environment {}, a 5, b 9, c 12, d 2, x 1, y 2, z 3} ((println (+ a b c x y z)) (int (dec (+ a b c x y z))))
+32
+Error: no conversion to symbol
+Environment: {}
+nil
+H]=> {:environment {}, a 5, b 9, c 12, d 2, x 1, y 2, z 3} ((println (+ a b c x y z)) (int (dec (+ a b c))))
+32
+Error: no conversion to symbol
+Environment: {}
+nil
+H]=> {:environment {}, a 5, b 9, c 12, d 2, x 1, y 2, z 3} ((println (- a b c x y z)) (int (dec (+ a b c x y z))))
+-22
+Error: no conversion to symbol
+Environment: {}
+nil
+H]=> {:environment {}, a 5, b 9, c 12, d 2, x 1, y 2, z 3} ((println (- a b c x y z)) (int (dec (+ a b c x y z))))
+-22
+Error: no conversion to symbol
+Environment: {}
+nil
+H]=> {:environment {}, a 5, b 9, c 12, d 2, x 1, y 2, z 3} ((int (dec (+ a b c x y z))))
+Error: no conversion to symbol
+Environment: {}
+nil
+H]=> {:environment {}, a 5, b 9, c 12, d 2, x 1, y 2, z 3} ((int (dec (+ a b c x y z))))
+Error: no conversion to symbol
+Environment: {}
+nil
+H]=> {:environment {}, a 5, b 9, c 12, d 2, x 1, y 2, z 3} ()
+Error: no conversion to symbol
+Environment: {}
+nil
+H]=> Error: Cannot invoke "Object.getClass()" because "x" is null
+Error: Cannot invoke "Object.getClass()" because "x" is null
+Error: Cannot invoke "java.lang.Character.charValue()" because "x" is null
+Environment: nil
+nil
+H]=> Error: Cannot invoke "Object.getClass()" because "x" is null
+Error: Cannot invoke "Object.getClass()" because "x" is null
+Error: Cannot invoke "java.lang.Character.charValue()" because "x" is null
+Environment: nil
+nil
+H]=> Error: Cannot invoke "Object.getClass()" because "x" is null
+Error: Cannot invoke "Object.getClass()" because "x" is null
+Error: Cannot invoke "java.lang.Character.charValue()" because "x" is null
+Environment: nil
+nil
+H]=> ; Execution error at hw6.core/repl (core.clj:170).
+; EOF while reading
+clj꞉hw6.core꞉> 
+(repl)
+H]=> {:environment {}, a 5, b 6, c 8, x 8, y 9, z 2} ((int (dec (+ a b c x y z))))
+Error: no conversion to symbol
+Environment: {}
+nil
+H]=> {:environment {}, a 5, b 6, c 8, x 8, y 9, z 2} ((println x y z) (+ a b c x y z))
+8 9 2
+Error: no conversion to symbol
+Environment: {}
+nil
+H]=> {:environment {}, a 5, b 6, c 8, x 8, y 9, z 2} ((println x y z) (+ a b c x y z))
+8 9 2
+Error: no conversion to symbol
+Environment: {}
+nil
+H]=> ; Evaluating file: core.clj
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> {:environment {}, a 1, b 3, c 6} ((inc (+ a b c)) (dec (- a b c)))
+Error: no conversion to symbol
+Environment: {}
+nil
+H]=> {:environment {}, a 1, b 3, c 6} ((inc (+ a b c)) (dec (- a b c)))
+Error: no conversion to symbol
+Environment: {}
+nil
+H]=> Environment: {}
+19
+H]=> Environment: {}
+-13.0
+H]=> ; Evaluating file: core.clj
+(repl)
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+H]=> clj꞉hw6.core꞉> 
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+(repl)
+H]=> {:environment {}, a 1, b 3, c 6} ((inc (+ a b c)) (dec (- a b c)))
+Environment: {}
+(11 -9)
+H]=> ; Evaluating file: core.clj
+(repl)
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+H]=> clj꞉hw6.core꞉> 
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> {:environment {}, a 1, b 3, c 6} ((inc (+ a b c)) (dec (- a b c)))
+Environment: {}
+-9
+H]=> {:environment {}, a 1, b 3, c 6} ((inc (+ a b c)) (dec (- a b c)) (double b))
+Environment: {}
+3.0
+H]=> (+ 1 2 5 6 7)
+Environment: {}
+19
+H]=> {:environment {}, a 1, b 3, c 6} ((inc (+ a b c)) (dec (- a b c)))
+Environment: {}
+-9
+H]=> {:environment {}, a 1, b 3, c 6} ((inc (+ a b c)) (dec (- a b c)))
+Environment: {}
+-9
+H]=> ; Evaluating file: core.clj
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+21
+; Syntax error compiling at (.calva/output-window/output.calva-repl:0:0).
+; Unable to resolve symbol: => in this context
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(clj꞉hw6.core꞉> 
+(repl)
+H]=> Environment: {nass ([x y z] (println x y))}
+nass
+H]=> Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> Environment: {nass ((println x y))}
+nass
+H]=> Environment: {nass ((println x y) (int x y))}
+nass
+H]=> Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> Environment: {nass ([] (println Hello nass))}
+nass
+H]=> Environment: {nass ([] (println Hello nass))}
+nil
+H]=> Error: Cannot invoke "clojure.lang.IFn.applyTo(clojure.lang.ISeq)" because "f" is null
+Environment: nil
+nil
+H]=> Environment: {nass ([] (println Hello nass))}
+nass
+H]=> Error: Cannot invoke "clojure.lang.IFn.applyTo(clojure.lang.ISeq)" because "f" is null
+Environment: nil
+nil
+H]=> Environment: {nass ([] (println Hello nass))}
+nass
+H]=> Environment: {nass ([] (println Hello nass))}
+nil
+H]=> ; Evaluating file: core.clj
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+(repl)
+H]=> Environment: {nass ([] (println Hello nass))}
+nass
+H]=> Environment: {nass ([] (println Hello nass))}
+([] (println Hello nass))
+H]=> Environment: {nass ([] (println Hello nass))}
+#object[hw6.core$my_eval$fn__18042 0x259334d9 hw6.core$my_eval$fn__18042@259334d9]
+H]=> ; Evaluating file: core.clj
+(repl)
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+H]=> clj꞉hw6.core꞉> 
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+(repl)
+H]=> Environment: {nass ([] (println Hello nass))}
+nass
+H]=> Environment: {nass ([] (println Hello nass))}
+([] (println Hello nass))
+H]=> ; Execution error (ClassCastException) at hw6.core/my-eval (core.clj:134).
+; class clojure.lang.LazySeq cannot be cast to class clojure.lang.IFn (clojure.lang.LazySeq and clojure.lang.IFn are in unnamed module of loader 'bootstrap')
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> Environment: {nass #object[hw6.core$my_eval$fn__18242 0x7eba18e8 hw6.core$my_eval$fn__18242@7eba18e8]}
+nass
+H]=> Environment: {nass #object[hw6.core$my_eval$fn__18242 0x7eba18e8 hw6.core$my_eval$fn__18242@7eba18e8]}
+#object[hw6.core$my_eval$fn__18242 0x7eba18e8 hw6.core$my_eval$fn__18242@7eba18e8]
+H]=> ; Execution error (ClassCastException) at hw6.core/my-eval (core.clj:135).
+; class clojure.lang.LazySeq cannot be cast to class clojure.lang.IFn (clojure.lang.LazySeq and clojure.lang.IFn are in unnamed module of loader 'bootstrap')
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> Environment: {nass #object[hw6.core$my_eval$fn__18360 0x3f2c3283 hw6.core$my_eval$fn__18360@3f2c3283]}
+nass
+H]=> Environment: {nass #object[hw6.core$my_eval$fn__18360 0x3f2c3283 hw6.core$my_eval$fn__18360@3f2c3283]}
+#object[hw6.core$my_eval$fn__18360 0x3f2c3283 hw6.core$my_eval$fn__18360@3f2c3283]
+H]=> Environment: {nass #object[hw6.core$my_eval$fn__18360 0x3f2c3283 hw6.core$my_eval$fn__18360@3f2c3283]}
+(Hello nass
+nil)
+H]=> ; Evaluating file: core.clj
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+(repl)
+H]=> Environment: {nass #object[hw6.core$my_eval$fn__18478 0x3e70f704 hw6.core$my_eval$fn__18478@3e70f704]}
+nass
+H]=> Hello nass
+Environment: {nass #object[hw6.core$my_eval$fn__18478 0x3e70f704 hw6.core$my_eval$fn__18478@3e70f704]}
+nil
+H]=> Environment: {nass #object[hw6.core$my_eval$fn__18478 0x479918db hw6.core$my_eval$fn__18478@479918db]}
+nass
+H]=> Hello nass
+Environment: {nass #object[hw6.core$my_eval$fn__18478 0x479918db hw6.core$my_eval$fn__18478@479918db]}
+25
+H]=> Environment: {nass #object[hw6.core$my_eval$fn__18478 0x468d73b5 hw6.core$my_eval$fn__18478@468d73b5]}
+nass
+H]=> Environment: {nass #object[hw6.core$my_eval$fn__18478 0x468d73b5 hw6.core$my_eval$fn__18478@468d73b5]}
+25
+H]=> Environment: {nass #object[hw6.core$my_eval$fn__18478 0x763762c3 hw6.core$my_eval$fn__18478@763762c3]}
+nass
+H]=> {:environment {nass #object[hw6.core$my_eval$fn__18478 0x763762c3 hw6.core$my_eval$fn__18478@763762c3]}, x 2, y 3} ((println x y))
+2 3
+Environment: {nass #object[hw6.core$my_eval$fn__18478 0x763762c3 hw6.core$my_eval$fn__18478@763762c3]}
+25
+H]=> Environment: {nass #object[hw6.core$my_eval$fn__18478 0x6cf546ff hw6.core$my_eval$fn__18478@6cf546ff]}
+nass
+H]=> {:environment {nass #object[hw6.core$my_eval$fn__18478 0x6cf546ff hw6.core$my_eval$fn__18478@6cf546ff]}, x 2, y 3} ((- x y))
+Environment: {nass #object[hw6.core$my_eval$fn__18478 0x6cf546ff hw6.core$my_eval$fn__18478@6cf546ff]}
+25
+H]=> Environment: {nass #object[hw6.core$my_eval$fn__18478 0x31c8a249 hw6.core$my_eval$fn__18478@31c8a249]}
+nass
+H]=> {:environment {nass #object[hw6.core$my_eval$fn__18478 0x31c8a249 hw6.core$my_eval$fn__18478@31c8a249]}, x 2, y 3} ((println (+ 3 5 6)))
+14
+Environment: {nass #object[hw6.core$my_eval$fn__18478 0x31c8a249 hw6.core$my_eval$fn__18478@31c8a249]}
+25
+H]=> Environment: {nass #object[hw6.core$my_eval$fn__18478 0x52837f3 hw6.core$my_eval$fn__18478@52837f3]}
+nass
+H]=> {:environment {nass #object[hw6.core$my_eval$fn__18478 0x52837f3 hw6.core$my_eval$fn__18478@52837f3]}, x 2, y 3} ((println (+ x y)))
+5
+Environment: {nass #object[hw6.core$my_eval$fn__18478 0x52837f3 hw6.core$my_eval$fn__18478@52837f3]}
+25
+H]=> Environment: {nass #object[hw6.core$my_eval$fn__18478 0x52837f3 hw6.core$my_eval$fn__18478@52837f3]}
+[3 4 5 (10 15 18)]
+H]=> Environment: {nass #object[hw6.core$my_eval$fn__18478 0x52837f3 hw6.core$my_eval$fn__18478@52837f3]}
+[1 2 3 (10 16 20)]
+H]=> Environment: nil
+([1 2 3] 7 8 9)
+H]=> 5
+Environment: nil
+nil
+H]=> Environment: {my-map #object[hw6.core$my_eval$fn__18478 0x33842a8e hw6.core$my_eval$fn__18478@33842a8e]}
+my-map
+H]=> Environment: {my-map #object[hw6.core$my_eval$fn__18478 0x33842a8e hw6.core$my_eval$fn__18478@33842a8e], add-5 #object[hw6.core$my_eval$fn__18478 0x472a0c5d hw6.core$my_eval$fn__18478@472a0c5d]}
+add-5
+H]=> Environment: {my-map #object[hw6.core$my_eval$fn__18478 0x33842a8e hw6.core$my_eval$fn__18478@33842a8e], add-5 #object[hw6.core$my_eval$fn__18478 0x472a0c5d hw6.core$my_eval$fn__18478@472a0c5d]}
+#object[hw6.core$my_eval$fn__18478 0x33842a8e hw6.core$my_eval$fn__18478@33842a8e]
+H]=> Environment: {my-map #object[hw6.core$my_eval$fn__18478 0x3792ce4 hw6.core$my_eval$fn__18478@3792ce4], add-5 #object[hw6.core$my_eval$fn__18478 0x472a0c5d hw6.core$my_eval$fn__18478@472a0c5d]}
+my-map
+H]=> Environment: {my-map #object[hw6.core$my_eval$fn__18478 0x3792ce4 hw6.core$my_eval$fn__18478@3792ce4], add-5 #object[hw6.core$my_eval$fn__18478 0x472a0c5d hw6.core$my_eval$fn__18478@472a0c5d]}
+nil
+H]=> Environment: {my-map #object[hw6.core$my_eval$fn__18478 0x3792ce4 hw6.core$my_eval$fn__18478@3792ce4], add-5 #object[hw6.core$my_eval$fn__18478 0x472a0c5d hw6.core$my_eval$fn__18478@472a0c5d]}
+nil
+H]=> Environment: {my-map #object[hw6.core$my_eval$fn__18478 0x744dcf54 hw6.core$my_eval$fn__18478@744dcf54], add-5 #object[hw6.core$my_eval$fn__18478 0x472a0c5d hw6.core$my_eval$fn__18478@472a0c5d]}
+my-map
+H]=> Environment: {my-map #object[hw6.core$my_eval$fn__18478 0x744dcf54 hw6.core$my_eval$fn__18478@744dcf54], add-5 #object[hw6.core$my_eval$fn__18478 0x472a0c5d hw6.core$my_eval$fn__18478@472a0c5d]}
+nil
+H]=> Environment: {my-map #object[hw6.core$my_eval$fn__18478 0x660f4b09 hw6.core$my_eval$fn__18478@660f4b09], add-5 #object[hw6.core$my_eval$fn__18478 0x472a0c5d hw6.core$my_eval$fn__18478@472a0c5d]}
+my-map
+H]=> Environment: {my-map #object[hw6.core$my_eval$fn__18478 0x660f4b09 hw6.core$my_eval$fn__18478@660f4b09], add-5 #object[hw6.core$my_eval$fn__18478 0x71d0fb71 hw6.core$my_eval$fn__18478@71d0fb71]}
+add-5
+H]=> Environment: {my-map #object[hw6.core$my_eval$fn__18478 0x660f4b09 hw6.core$my_eval$fn__18478@660f4b09], add-5 #object[hw6.core$my_eval$fn__18478 0x71d0fb71 hw6.core$my_eval$fn__18478@71d0fb71]}
+nil
+H]=> Error: Cannot invoke "Object.getClass()" because "x" is null
+Environment: {my-map #object[hw6.core$my_eval$fn__18478 0x660f4b09 hw6.core$my_eval$fn__18478@660f4b09], add-5 #object[hw6.core$my_eval$fn__18478 0x71d0fb71 hw6.core$my_eval$fn__18478@71d0fb71]}
+nil
+H]=> Error: Cannot invoke "Object.getClass()" because "x" is null
+Environment: {my-map #object[hw6.core$my_eval$fn__18478 0x660f4b09 hw6.core$my_eval$fn__18478@660f4b09], add-5 #object[hw6.core$my_eval$fn__18478 0x71d0fb71 hw6.core$my_eval$fn__18478@71d0fb71]}
+nil
+H]=> ; Evaluating file: core.clj
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+(repl)
+H]=> Environment: {my-map #object[hw6.core$my_eval$fn__18596 0x3a2cc817 hw6.core$my_eval$fn__18596@3a2cc817]}
+my-map
+H]=> Environment: {my-map #object[hw6.core$my_eval$fn__18596 0x3a2cc817 hw6.core$my_eval$fn__18596@3a2cc817], add-5 #object[hw6.core$my_eval$fn__18596 0x5c605400 hw6.core$my_eval$fn__18596@5c605400]}
+add-5
+H]=> (+ x 5)
+Error: Cannot invoke "Object.getClass()" because "x" is null
+Environment: {my-map #object[hw6.core$my_eval$fn__18596 0x3a2cc817 hw6.core$my_eval$fn__18596@3a2cc817], add-5 #object[hw6.core$my_eval$fn__18596 0x5c605400 hw6.core$my_eval$fn__18596@5c605400]}
+nil
+H]=> (+ x 5)
+Error: Cannot invoke "Object.getClass()" because "x" is null
+Environment: {my-map #object[hw6.core$my_eval$fn__18596 0x3a2cc817 hw6.core$my_eval$fn__18596@3a2cc817], add-5 #object[hw6.core$my_eval$fn__18596 0x5c605400 hw6.core$my_eval$fn__18596@5c605400]}
+nil
+H]=> Environment: {my-map #object[hw6.core$my_eval$fn__18596 0x3a2cc817 hw6.core$my_eval$fn__18596@3a2cc817], add-5 #object[hw6.core$my_eval$fn__18596 0x5c605400 hw6.core$my_eval$fn__18596@5c605400], adds-a #object[hw6.core$my_eval$fn__18596 0x75e142f6 hw6.core$my_eval$fn__18596@75e142f6]}
+adds-a
+H]=> {:environment {my-map #object[hw6.core$my_eval$fn__18596 0x3a2cc817 hw6.core$my_eval$fn__18596@3a2cc817], add-5 #object[hw6.core$my_eval$fn__18596 0x5c605400 hw6.core$my_eval$fn__18596@5c605400], adds-a #object[hw6.core$my_eval$fn__18596 0x75e142f6 hw6.core$my_eval$fn__18596@75e142f6]}, a 10} ((adds-a 100))
+(+ x a)
+Error: Cannot invoke "Object.getClass()" because "x" is null
+Environment: {my-map #object[hw6.core$my_eval$fn__18596 0x3a2cc817 hw6.core$my_eval$fn__18596@3a2cc817], add-5 #object[hw6.core$my_eval$fn__18596 0x5c605400 hw6.core$my_eval$fn__18596@5c605400], adds-a #object[hw6.core$my_eval$fn__18596 0x75e142f6 hw6.core$my_eval$fn__18596@75e142f6]}
+nil
+H]=> {:environment {my-map #object[hw6.core$my_eval$fn__18596 0x3a2cc817 hw6.core$my_eval$fn__18596@3a2cc817], add-5 #object[hw6.core$my_eval$fn__18596 0x5c605400 hw6.core$my_eval$fn__18596@5c605400], adds-a #object[hw6.core$my_eval$fn__18596 0x75e142f6 hw6.core$my_eval$fn__18596@75e142f6]}, a 10} ((adds-a a))
+(+ x a)
+Error: Cannot invoke "Object.getClass()" because "x" is null
+Environment: {my-map #object[hw6.core$my_eval$fn__18596 0x3a2cc817 hw6.core$my_eval$fn__18596@3a2cc817], add-5 #object[hw6.core$my_eval$fn__18596 0x5c605400 hw6.core$my_eval$fn__18596@5c605400], adds-a #object[hw6.core$my_eval$fn__18596 0x75e142f6 hw6.core$my_eval$fn__18596@75e142f6]}
+nil
+H]=> {:environment {my-map #object[hw6.core$my_eval$fn__18596 0x3a2cc817 hw6.core$my_eval$fn__18596@3a2cc817], add-5 #object[hw6.core$my_eval$fn__18596 0x5c605400 hw6.core$my_eval$fn__18596@5c605400], adds-a #object[hw6.core$my_eval$fn__18596 0x75e142f6 hw6.core$my_eval$fn__18596@75e142f6]}, a 10} ((double 100))
+Environment: {my-map #object[hw6.core$my_eval$fn__18596 0x3a2cc817 hw6.core$my_eval$fn__18596@3a2cc817], add-5 #object[hw6.core$my_eval$fn__18596 0x5c605400 hw6.core$my_eval$fn__18596@5c605400], adds-a #object[hw6.core$my_eval$fn__18596 0x75e142f6 hw6.core$my_eval$fn__18596@75e142f6]}
+100.0
+H]=> ; Execution error at hw6.core/repl (core.clj:173).
+; EOF while reading
+clj꞉hw6.core꞉> 
+(repl)
+H]=> Environment: {a-a #object[hw6.core$my_eval$fn__18596 0x7e5b8b2b hw6.core$my_eval$fn__18596@7e5b8b2b]}
+a-a
+H]=> (println (+ 2 3))
+5
+Environment: {a-a #object[hw6.core$my_eval$fn__18596 0x7e5b8b2b hw6.core$my_eval$fn__18596@7e5b8b2b]}
+nil
+H]=> Environment: {a-a [x y]}
+a-a
+H]=> ; Execution error (ArityException) at hw6.core/my-eval (core.clj:137).
+; Wrong number of args (0) passed to: clojure.lang.PersistentVector
+clj꞉hw6.core꞉> 
+(repl)
+H]=> Environment: {a-a #object[hw6.core$my_eval$fn__18596 0x29325050 hw6.core$my_eval$fn__18596@29325050]}
+a-a
+H]=> (println (+ 2 x y))
+Error: Cannot invoke "Object.getClass()" because "x" is null
+nil
+Environment: {a-a #object[hw6.core$my_eval$fn__18596 0x29325050 hw6.core$my_eval$fn__18596@29325050]}
+nil
+H]=> Environment: {a-a #object[hw6.core$my_eval$fn__18596 0x34fe8121 hw6.core$my_eval$fn__18596@34fe8121]}
+a-a
+H]=> (println (+ 2 x y))
+Error: Cannot invoke "Object.getClass()" because "x" is null
+nil
+Environment: {a-a #object[hw6.core$my_eval$fn__18596 0x34fe8121 hw6.core$my_eval$fn__18596@34fe8121]}
+nil
+H]=> Environment: {a-a #object[hw6.core$my_eval$fn__18596 0x70114058 hw6.core$my_eval$fn__18596@70114058]}
+a-a
+H]=> Environment: {a-a #object[hw6.core$my_eval$fn__18596 0x70114058 hw6.core$my_eval$fn__18596@70114058], a 5}
+a
+H]=> Environment: {a-a #object[hw6.core$my_eval$fn__18596 0x70114058 hw6.core$my_eval$fn__18596@70114058], a 5, adds-a #object[hw6.core$my_eval$fn__18596 0x71d8b1ae hw6.core$my_eval$fn__18596@71d8b1ae]}
+adds-a
+H]=> Environment: {a-a #object[hw6.core$my_eval$fn__18596 0x70114058 hw6.core$my_eval$fn__18596@70114058], a 5, adds-a #object[hw6.core$my_eval$fn__18596 0x71d8b1ae hw6.core$my_eval$fn__18596@71d8b1ae]}
+nil
+H]=> Environment: {a-a #object[hw6.core$my_eval$fn__18596 0x70114058 hw6.core$my_eval$fn__18596@70114058], a 5, adds-a #object[hw6.core$my_eval$fn__18596 0x71d8b1ae hw6.core$my_eval$fn__18596@71d8b1ae]}
+nil
+H]=> {:environment {a-a #object[hw6.core$my_eval$fn__18596 0x70114058 hw6.core$my_eval$fn__18596@70114058], a 5, adds-a #object[hw6.core$my_eval$fn__18596 0x71d8b1ae hw6.core$my_eval$fn__18596@71d8b1ae]}, a 10} ((adds-a 100))
+(+ x a)
+Error: Cannot invoke "Object.getClass()" because "x" is null
+Environment: {a-a #object[hw6.core$my_eval$fn__18596 0x70114058 hw6.core$my_eval$fn__18596@70114058], a 5, adds-a #object[hw6.core$my_eval$fn__18596 0x71d8b1ae hw6.core$my_eval$fn__18596@71d8b1ae]}
+nil
+H]=> {:environment {a-a #object[hw6.core$my_eval$fn__18596 0x70114058 hw6.core$my_eval$fn__18596@70114058], a 5, adds-a #object[hw6.core$my_eval$fn__18596 0x71d8b1ae hw6.core$my_eval$fn__18596@71d8b1ae]}, a 10} ((adds-a 100))
+(+ x a)
+Error: Cannot invoke "Object.getClass()" because "x" is null
+Environment: {a-a #object[hw6.core$my_eval$fn__18596 0x70114058 hw6.core$my_eval$fn__18596@70114058], a 5, adds-a #object[hw6.core$my_eval$fn__18596 0x71d8b1ae hw6.core$my_eval$fn__18596@71d8b1ae]}
+nil
+H]=> (+ x a)
+Error: Cannot invoke "Object.getClass()" because "x" is null
+Environment: {a-a #object[hw6.core$my_eval$fn__18596 0x70114058 hw6.core$my_eval$fn__18596@70114058], a 5, adds-a #object[hw6.core$my_eval$fn__18596 0x71d8b1ae hw6.core$my_eval$fn__18596@71d8b1ae]}
+nil
+H]=> Error: Cannot invoke "clojure.lang.IFn.applyTo(clojure.lang.ISeq)" because "f" is null
+Environment: nil
+nil
+H]=> Environment: nil
+nil
+H]=> Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> Environment: {a 5}
+a
+H]=> Environment: {a 5, adds-a #object[hw6.core$my_eval$fn__18718 0x104d3a11 hw6.core$my_eval$fn__18718@104d3a11]}
+adds-a
+H]=> {:environment {a 5, adds-a #object[hw6.core$my_eval$fn__18718 0x104d3a11 hw6.core$my_eval$fn__18718@104d3a11]}, a 10} ((adds-a 100))
+(+ x a)
+Error: Cannot invoke "Object.getClass()" because "x" is null
+Environment: {a 5, adds-a #object[hw6.core$my_eval$fn__18718 0x104d3a11 hw6.core$my_eval$fn__18718@104d3a11]}
+nil
+H]=> {:environment {a 5, adds-a #object[hw6.core$my_eval$fn__18718 0x104d3a11 hw6.core$my_eval$fn__18718@104d3a11]}, a 10} ((adds-a a))
+(+ x a)
+Error: Cannot invoke "Object.getClass()" because "x" is null
+Environment: {a 5, adds-a #object[hw6.core$my_eval$fn__18718 0x104d3a11 hw6.core$my_eval$fn__18718@104d3a11]}
+nil
+H]=> ; Evaluating file: core.clj
+(repl)
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+H]=> clj꞉hw6.core꞉> 
+{:environment {}, a 10} ((adds-a a))
+Error: Cannot invoke "clojure.lang.IFn.applyTo(clojure.lang.ISeq)" because "f" is null
+Environment: {}
+nil
+H]=> ; Evaluating file: core.clj
+; Evaluating file: core.clj
+(repl)
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+H]=> clj꞉hw6.core꞉> 
+Environment: {a 5}
+a
+H]=> Environment: {a 5, adds-a #object[hw6.core$my_eval$fn__18838 0x699359c hw6.core$my_eval$fn__18838@699359c]}
+adds-a
+H]=> {:environment {a 5, adds-a #object[hw6.core$my_eval$fn__18838 0x699359c hw6.core$my_eval$fn__18838@699359c]}, a 10} ((adds-a 100))
+Environment: {a 5, adds-a #object[hw6.core$my_eval$fn__18838 0x699359c hw6.core$my_eval$fn__18838@699359c]}
+12
+H]=> {:environment {a 5, adds-a #object[hw6.core$my_eval$fn__18838 0x699359c hw6.core$my_eval$fn__18838@699359c]}, a 10} ((adds-a 100))
+; Evaluating file: core.clj
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+clj꞉hw6.core꞉> 
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> Environment: {a 5}
+a
+H]=> Environment: {a 5, add #object[hw6.core$my_eval$fn__19188 0x7e312f2e hw6.core$my_eval$fn__19188@7e312f2e]}
+add
+H]=> {:environment {a 5, add #object[hw6.core$my_eval$fn__19188 0x7e312f2e hw6.core$my_eval$fn__19188@7e312f2e]}, a 10} ((add 100))
+(add 100)
+(+ x a)
+Error: Cannot invoke "Object.getClass()" because "x" is null
+Environment: {a 5, add #object[hw6.core$my_eval$fn__19188 0x7e312f2e hw6.core$my_eval$fn__19188@7e312f2e]}
+nil
+H]=> Environment: {a 5, add #object[hw6.core$my_eval$fn__19188 0x7e312f2e hw6.core$my_eval$fn__19188@7e312f2e]}
+#object[hw6.core$my_eval$fn__19188 0x7e312f2e hw6.core$my_eval$fn__19188@7e312f2e]
+H]=> (+ x a)
+Error: Cannot invoke "Object.getClass()" because "x" is null
+Environment: {a 5, add #object[hw6.core$my_eval$fn__19188 0x7e312f2e hw6.core$my_eval$fn__19188@7e312f2e]}
+nil
+H]=> ; Evaluating file: core.clj
+(repl)
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+H]=> clj꞉hw6.core꞉> 
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> {:environment {}, a 10} ((adds-a 100))
+(adds-a 100)
+Error: Cannot invoke "clojure.lang.IFn.applyTo(clojure.lang.ISeq)" because "f" is null
+Environment: {}
+nil
+H]=> ; Evaluating file: core.clj
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+(erclj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+(repl)
+H]=> Error: no conversion to symbol
+Error: Cannot read field "ns" because "sym" is null
+Environment: nil
+nil
+H]=> ; Evaluating file: core.clj
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> Environment: {add #object[hw6.core$my_eval$fn__19776 0x29dcbf43 hw6.core$my_eval$fn__19776@29dcbf43]}
+add
+H]=> add
+([] (println Hi)) (println Hi)
+Hi
+Environment: {add #object[hw6.core$my_eval$fn__19776 0x29dcbf43 hw6.core$my_eval$fn__19776@29dcbf43]}
+nil
+H]=> Environment: {add #object[hw6.core$my_eval$fn__19776 0x613ff0da hw6.core$my_eval$fn__19776@613ff0da]}
+add
+H]=> add
+([x y] (println x y 3)) (println x y 3)
+nil nil 3
+Environment: {add #object[hw6.core$my_eval$fn__19776 0x613ff0da hw6.core$my_eval$fn__19776@613ff0da]}
+nil
+H]=> add
+([x y] (println x y 3)) (println x y 3)
+nil nil 3
+Environment: {add #object[hw6.core$my_eval$fn__19776 0x613ff0da hw6.core$my_eval$fn__19776@613ff0da]}
+nil
+H]=> ; Evaluating file: core.clj
+(repl)Environment: {add #object[hw6.core$my_eval$fn__19776 0x613ff0da hw6.core$my_eval$fn__19776@613ff0da], adds-a #object[hw6.core$my_eval$fn__19776 0xfcfe2e7 hw6.core$my_eval$fn__19776@fcfe2e7]}
+adds-a
+H]=> Error: Cannot invoke "clojure.lang.IFn.applyTo(clojure.lang.ISeq)" because "f" is null
+Environment: nil
+nil
+H]=> Environment: {a 5}
+a
+H]=> Environment: {a 5, adds-a #object[hw6.core$my_eval$fn__19776 0x795a2ac9 hw6.core$my_eval$fn__19776@795a2ac9]}
+adds-a
+H]=> Error: Cannot invoke "clojure.lang.IFn.applyTo(clojure.lang.ISeq)" because "f" is null
+Environment: nil
+nil
+H]=> Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+H]=> clj꞉hw6.core꞉> 
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> def
+Environment: {x 7}
+x
+H]=> def
+Environment: {x 7, a 5}
+a
+H]=> defn
+Environment: {x 7, a 5, adds-a #object[hw6.core$my_eval$fn__20012 0x42b14cff hw6.core$my_eval$fn__20012@42b14cff]}
+adds-a
+H]=> let
+{:environment {x 7, a 5, adds-a #object[hw6.core$my_eval$fn__20012 0x42b14cff hw6.core$my_eval$fn__20012@42b14cff]}, a 10} ((adds-a 100))
+(adds-a 100)
+adds-a
+([x] (+ x a)) (+ x a)
++
+Environment: {x 7, a 5, adds-a #object[hw6.core$my_eval$fn__20012 0x42b14cff hw6.core$my_eval$fn__20012@42b14cff]}
+12
+H]=> let
+{:environment {x 7, a 5, adds-a #object[hw6.core$my_eval$fn__20012 0x42b14cff hw6.core$my_eval$fn__20012@42b14cff]}, a 10} ((adds-a a))
+(adds-a a)
+adds-a
+([x] (+ x a)) (+ x a)
++
+Environment: {x 7, a 5, adds-a #object[hw6.core$my_eval$fn__20012 0x42b14cff hw6.core$my_eval$fn__20012@42b14cff]}
+12
+H]=> let
+{:environment {x 7, a 5, adds-a #object[hw6.core$my_eval$fn__20012 0x42b14cff hw6.core$my_eval$fn__20012@42b14cff]}, a 10} ((adds-a a))
+(adds-a a)
+adds-a
+([x] (+ x a)) (+ x a)
++
+Environment: {x 7, a 5, adds-a #object[hw6.core$my_eval$fn__20012 0x42b14cff hw6.core$my_eval$fn__20012@42b14cff]}
+12
+H]=> defn
+Environment: {x 7, a 5, adds-a #object[hw6.core$my_eval$fn__20012 0x42b14cff hw6.core$my_eval$fn__20012@42b14cff], my-map #object[hw6.core$my_eval$fn__20012 0xd3333ac hw6.core$my_eval$fn__20012@d3333ac]}
+my-map
+H]=> defn
+Environment: {x 7, a 5, adds-a #object[hw6.core$my_eval$fn__20012 0x42b14cff hw6.core$my_eval$fn__20012@42b14cff], my-map #object[hw6.core$my_eval$fn__20012 0xd3333ac hw6.core$my_eval$fn__20012@d3333ac], add-5 #object[hw6.core$my_eval$fn__20012 0x6257f48a hw6.core$my_eval$fn__20012@6257f48a]}
+add-5
+H]=> my-map
+([func lst] (if (empty? lst) lst (cons (func (first lst)) (my-map func (rest lst))))) (if (empty? lst) lst (cons (func (first lst)) (my-map func (rest lst))))
+if
+empty?
+empty?
+Environment: {x 7, a 5, adds-a #object[hw6.core$my_eval$fn__20012 0x42b14cff hw6.core$my_eval$fn__20012@42b14cff], my-map #object[hw6.core$my_eval$fn__20012 0xd3333ac hw6.core$my_eval$fn__20012@d3333ac], add-5 #object[hw6.core$my_eval$fn__20012 0x6257f48a hw6.core$my_eval$fn__20012@6257f48a]}
+nil
+H]=> Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+clj꞉hw6.core꞉> 
+(repl)
+H]=> def
+Environment: {a 5}
+a
+H]=> defn
+Environment: {a 5, adds-a #object[hw6.core$my_eval$fn__20012 0xbcc0ebc hw6.core$my_eval$fn__20012@bcc0ebc]}
+adds-a
+H]=> let
+{:environment {a 5, adds-a #object[hw6.core$my_eval$fn__20012 0xbcc0ebc hw6.core$my_eval$fn__20012@bcc0ebc]}, a 10} ((adds-a 100))
+(adds-a 100)
+adds-a
+([x] (+ x a)) (+ x a)
++
+Error: Cannot invoke "Object.getClass()" because "x" is null
+Environment: {a 5, adds-a #object[hw6.core$my_eval$fn__20012 0xbcc0ebc hw6.core$my_eval$fn__20012@bcc0ebc]}
+nil
+H]=> let
+{:environment {a 5, adds-a #object[hw6.core$my_eval$fn__20012 0xbcc0ebc hw6.core$my_eval$fn__20012@bcc0ebc]}, a 10} ((adds-a 100))
+(adds-a 100)
+adds-a
+([x] (+ x a)) (+ x a)
++
+Error: Cannot invoke "Object.getClass()" because "x" is null
+Environment: {a 5, adds-a #object[hw6.core$my_eval$fn__20012 0xbcc0ebc hw6.core$my_eval$fn__20012@bcc0ebc]}
+nil
+H]=> ; Evaluating file: core.clj
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+(repl)
+H]=> defn
+Environment: {add #object[hw6.core$my_eval$fn__20132 0x51d7bb32 hw6.core$my_eval$fn__20132@51d7bb32]}
+add
+H]=> add
+([x y] (println x y)) found
+Environment: nil
+nil
+H]=> def
+Environment: {a 5}
+a
+H]=> defn
+Environment: {a 5, adds-a #object[hw6.core$my_eval$fn__20132 0x1a8dafa2 hw6.core$my_eval$fn__20132@1a8dafa2]}
+adds-a
+H]=> let
+{:environment {a 5, adds-a #object[hw6.core$my_eval$fn__20132 0x1a8dafa2 hw6.core$my_eval$fn__20132@1a8dafa2]}, a 10} ((adds-a 100))
+(adds-a 100)
+adds-a
+([x] (+ x a)) found
+Environment: {a 5, adds-a #object[hw6.core$my_eval$fn__20132 0x1a8dafa2 hw6.core$my_eval$fn__20132@1a8dafa2]}
+nil
+H]=> let
+{:environment {a 5, adds-a #object[hw6.core$my_eval$fn__20132 0x1a8dafa2 hw6.core$my_eval$fn__20132@1a8dafa2]}, a 10} ((adds-a 100))
+(adds-a 100)
+adds-a
+([x] (+ x a)) found
+Environment: {a 5, adds-a #object[hw6.core$my_eval$fn__20132 0x1a8dafa2 hw6.core$my_eval$fn__20132@1a8dafa2]}
+nil
+H]=> ; Evaluating file: core.clj
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> def
+Environment: {a 5}
+a
+H]=> defn
+Environment: {a 5, adds-a #object[hw6.core$my_eval$fn__20332 0x7940401e hw6.core$my_eval$fn__20332@7940401e]}
+adds-a
+H]=> let
+{:environment {a 5, adds-a #object[hw6.core$my_eval$fn__20332 0x7940401e hw6.core$my_eval$fn__20332@7940401e]}, a 10} ((adds-a 100))
+(adds-a 100)
+adds-a
+([x] (+ x a)) (+ x a)
++
+Error: Cannot invoke "Object.getClass()" because "x" is null
+Environment: {a 5, adds-a #object[hw6.core$my_eval$fn__20332 0x7940401e hw6.core$my_eval$fn__20332@7940401e]}
+nil
+H]=> Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> defn
+Environment: {add #object[hw6.core$my_eval$fn__20682 0x3e17f30c hw6.core$my_eval$fn__20682@3e17f30c]}
+add
+H]=> add
+([x y] (println x y)) (println x y)
+println
+nil nil
+Environment: {add #object[hw6.core$my_eval$fn__20682 0x3e17f30c hw6.core$my_eval$fn__20682@3e17f30c]}
+nil
+H]=> ; Evaluating file: core.clj
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> (repl)
+H]=> def
+Environment: {a 5}
+a
+H]=> defn
+Environment: {a 5, adds-a #object[hw6.core$my_eval$fn__20916 0x3384afdd hw6.core$my_eval$fn__20916@3384afdd]}
+adds-a
+H]=> let
+{:environment {a 5, adds-a #object[hw6.core$my_eval$fn__20916 0x3384afdd hw6.core$my_eval$fn__20916@3384afdd]}, a 10} ((adds-a 100))
+(adds-a 100)
+adds-a
+([x] (+ x a)) (+ x a)
++
+Error: Cannot invoke "Object.getClass()" because "x" is null
+Environment: {a 5, adds-a #object[hw6.core$my_eval$fn__20916 0x3384afdd hw6.core$my_eval$fn__20916@3384afdd]}
+nil
+H]=> ; Evaluating file: core.clj
+; Evaluating file: core.clj
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+(repl)
+H]=> defn
+Environment: {nass #object[hw6.core$my_eval$fn__21150 0x2da0156a hw6.core$my_eval$fn__21150@2da0156a]}
+nass
+H]=> nass
+{:environment {nass #object[hw6.core$my_eval$fn__21150 0x2da0156a hw6.core$my_eval$fn__21150@2da0156a]}}
+([x y] (+ x y)) (+ x y)
++
+Error: Cannot invoke "Object.getClass()" because "x" is null
+Environment: {nass #object[hw6.core$my_eval$fn__21150 0x2da0156a hw6.core$my_eval$fn__21150@2da0156a]}
+nil
+H]=> let
+{:environment {nass #object[hw6.core$my_eval$fn__21150 0x2da0156a hw6.core$my_eval$fn__21150@2da0156a]}, x 1, y 2, z 3} ((+ x y z))
+(+ x y z)
++
+Environment: {nass #object[hw6.core$my_eval$fn__21150 0x2da0156a hw6.core$my_eval$fn__21150@2da0156a]}
+6
+H]=> nass
+{:environment {nass #object[hw6.core$my_eval$fn__21150 0x2da0156a hw6.core$my_eval$fn__21150@2da0156a]}}
+([x y] (+ x y)) (+ x y)
++
+Error: Cannot invoke "Object.getClass()" because "x" is null
+Environment: {nass #object[hw6.core$my_eval$fn__21150 0x2da0156a hw6.core$my_eval$fn__21150@2da0156a]}
+nil
+H]=> ; Evaluating file: core.clj
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> defn
+Environment: {nass #object[hw6.core$my_eval$fn__21500 0x7806e003 hw6.core$my_eval$fn__21500@7806e003]}
+nass
+H]=> nass
+{:environment {nass #object[hw6.core$my_eval$fn__21500 0x7806e003 hw6.core$my_eval$fn__21500@7806e003]}}
+([x y] (+ x y)) (+ x y)
++
+Error: Cannot invoke "Object.getClass()" because "x" is null
+Environment: {nass #object[hw6.core$my_eval$fn__21500 0x7806e003 hw6.core$my_eval$fn__21500@7806e003]}
+nil
+H]=> ; Evaluating file: core.clj
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> defn
+Environment: {nass #object[hw6.core$my_eval$fn__21734 0x479584fe hw6.core$my_eval$fn__21734@479584fe]}
+nass
+H]=> nass
+{:environment {nass #object[hw6.core$my_eval$fn__21734 0x479584fe hw6.core$my_eval$fn__21734@479584fe]}, x nil, y nil}
+([x y] (+ x y)) (+ x y)
++
+Error: Cannot invoke "Object.getClass()" because "x" is null
+Environment: {nass #object[hw6.core$my_eval$fn__21734 0x479584fe hw6.core$my_eval$fn__21734@479584fe]}
+nil
+H]=> ; Evaluating file: core.clj
+(repl)
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+H]=> clj꞉hw6.core꞉> 
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+(repl)
+H]=> defn
+Environment: {nass #object[hw6.core$my_eval$fn__21854 0x497e8ffa hw6.core$my_eval$fn__21854@497e8ffa]}
+nass
+H]=> nass
+{:environment {nass #object[hw6.core$my_eval$fn__21854 0x497e8ffa hw6.core$my_eval$fn__21854@497e8ffa]}, x 3, y 4}
+([x y] (+ x y)) (+ x y)
++
+Environment: {nass #object[hw6.core$my_eval$fn__21854 0x497e8ffa hw6.core$my_eval$fn__21854@497e8ffa]}
+7
+H]=> def
+Environment: {nass #object[hw6.core$my_eval$fn__21854 0x497e8ffa hw6.core$my_eval$fn__21854@497e8ffa], a 5}
+a
+H]=> defn
+Environment: {nass #object[hw6.core$my_eval$fn__21854 0x497e8ffa hw6.core$my_eval$fn__21854@497e8ffa], a 5, adds-a #object[hw6.core$my_eval$fn__21854 0x6c07fc36 hw6.core$my_eval$fn__21854@6c07fc36]}
+adds-a
+H]=> let
+{:environment {nass #object[hw6.core$my_eval$fn__21854 0x497e8ffa hw6.core$my_eval$fn__21854@497e8ffa], a 5, adds-a #object[hw6.core$my_eval$fn__21854 0x6c07fc36 hw6.core$my_eval$fn__21854@6c07fc36]}, a 10} ((adds-a 100))
+(adds-a 100)
+adds-a
+{:environment {nass #object[hw6.core$my_eval$fn__21854 0x497e8ffa hw6.core$my_eval$fn__21854@497e8ffa], a 5, adds-a #object[hw6.core$my_eval$fn__21854 0x6c07fc36 hw6.core$my_eval$fn__21854@6c07fc36]}, a 10, x 100}
+([x] (+ x a)) (+ x a)
++
+Environment: {nass #object[hw6.core$my_eval$fn__21854 0x497e8ffa hw6.core$my_eval$fn__21854@497e8ffa], a 5, adds-a #object[hw6.core$my_eval$fn__21854 0x6c07fc36 hw6.core$my_eval$fn__21854@6c07fc36]}
+105
+H]=> let
+{:environment {nass #object[hw6.core$my_eval$fn__21854 0x497e8ffa hw6.core$my_eval$fn__21854@497e8ffa], a 5, adds-a #object[hw6.core$my_eval$fn__21854 0x6c07fc36 hw6.core$my_eval$fn__21854@6c07fc36]}, a 10} ((adds-a a))
+(adds-a a)
+adds-a
+{:environment {nass #object[hw6.core$my_eval$fn__21854 0x497e8ffa hw6.core$my_eval$fn__21854@497e8ffa], a 5, adds-a #object[hw6.core$my_eval$fn__21854 0x6c07fc36 hw6.core$my_eval$fn__21854@6c07fc36]}, a 10, x 5}
+([x] (+ x a)) (+ x a)
++
+Environment: {nass #object[hw6.core$my_eval$fn__21854 0x497e8ffa hw6.core$my_eval$fn__21854@497e8ffa], a 5, adds-a #object[hw6.core$my_eval$fn__21854 0x6c07fc36 hw6.core$my_eval$fn__21854@6c07fc36]}
+10
+H]=> let
+{:environment {nass #object[hw6.core$my_eval$fn__21854 0x497e8ffa hw6.core$my_eval$fn__21854@497e8ffa], a 5, adds-a #object[hw6.core$my_eval$fn__21854 0x6c07fc36 hw6.core$my_eval$fn__21854@6c07fc36]}, a 10} ((adds-a a))
+(adds-a a)
+adds-a
+{:environment {nass #object[hw6.core$my_eval$fn__21854 0x497e8ffa hw6.core$my_eval$fn__21854@497e8ffa], a 5, adds-a #object[hw6.core$my_eval$fn__21854 0x6c07fc36 hw6.core$my_eval$fn__21854@6c07fc36]}, a 10, x 5}
+([x] (+ x a)) (+ x a)
++
+Environment: {nass #object[hw6.core$my_eval$fn__21854 0x497e8ffa hw6.core$my_eval$fn__21854@497e8ffa], a 5, adds-a #object[hw6.core$my_eval$fn__21854 0x6c07fc36 hw6.core$my_eval$fn__21854@6c07fc36]}
+10
+H]=> Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+clj꞉hw6.core꞉> 
+(repl)
+H]=> def
+Environment: {a 5}
+a
+H]=> defn
+Environment: {a 5, adds-a #object[hw6.core$my_eval$fn__21854 0x14a15476 hw6.core$my_eval$fn__21854@14a15476]}
+adds-a
+H]=> let
+{:environment {a 5, adds-a #object[hw6.core$my_eval$fn__21854 0x14a15476 hw6.core$my_eval$fn__21854@14a15476]}, a 10} ((adds-a 100))
+(adds-a 100)
+adds-a
+{:environment {a 5, adds-a #object[hw6.core$my_eval$fn__21854 0x14a15476 hw6.core$my_eval$fn__21854@14a15476]}, a 10, x 100}
+([x] (+ x a)) (+ x a)
++
+Environment: {a 5, adds-a #object[hw6.core$my_eval$fn__21854 0x14a15476 hw6.core$my_eval$fn__21854@14a15476]}
+105
+H]=> let
+{:environment {a 5, adds-a #object[hw6.core$my_eval$fn__21854 0x14a15476 hw6.core$my_eval$fn__21854@14a15476]}, a 10} ((adds-a a))
+(adds-a a)
+adds-a
+{:environment {a 5, adds-a #object[hw6.core$my_eval$fn__21854 0x14a15476 hw6.core$my_eval$fn__21854@14a15476]}, a 10, x 5}
+([x] (+ x a)) (+ x a)
++
+Environment: {a 5, adds-a #object[hw6.core$my_eval$fn__21854 0x14a15476 hw6.core$my_eval$fn__21854@14a15476]}
+10
+H]=> ; Evaluating file: core.clj
+; Evaluating file: core.clj
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+(repl)
+H]=> def
+Environment: {a 5}
+a
+H]=> defn
+Environment: {a 5, adds-a #object[hw6.core$my_eval$fn__22090 0x726c059 hw6.core$my_eval$fn__22090@726c059]}
+adds-a
+H]=> let
+{:environment {a 5, adds-a #object[hw6.core$my_eval$fn__22090 0x726c059 hw6.core$my_eval$fn__22090@726c059]}, a 10} ((adds-a 100))
+(adds-a 100)
+adds-a
+{:environment {a 5, adds-a #object[hw6.core$my_eval$fn__22090 0x726c059 hw6.core$my_eval$fn__22090@726c059]}, a 10, x 100}
+([x] (+ x a)) (+ x a)
++
+Error: Don't know how to create ISeq from: clojure.lang.Symbol
+Environment: {a 5, adds-a #object[hw6.core$my_eval$fn__22090 0x726c059 hw6.core$my_eval$fn__22090@726c059]}
+nil
+H]=> let
+{:environment {a 5, adds-a #object[hw6.core$my_eval$fn__22090 0x726c059 hw6.core$my_eval$fn__22090@726c059]}, a 10} ((adds-a 100))
+(adds-a 100)
+adds-a
+{:environment {a 5, adds-a #object[hw6.core$my_eval$fn__22090 0x726c059 hw6.core$my_eval$fn__22090@726c059]}, a 10, x 100}
+([x] (+ x a)) (+ x a)
++
+Error: Don't know how to create ISeq from: clojure.lang.Symbol
+Environment: {a 5, adds-a #object[hw6.core$my_eval$fn__22090 0x726c059 hw6.core$my_eval$fn__22090@726c059]}
+nil
+H]=> let
+{:environment {a 5, adds-a #object[hw6.core$my_eval$fn__22090 0x726c059 hw6.core$my_eval$fn__22090@726c059]}, a 10} ((adds-a 100))
+(adds-a 100)
+adds-a
+{:environment {a 5, adds-a #object[hw6.core$my_eval$fn__22090 0x726c059 hw6.core$my_eval$fn__22090@726c059]}, a 10, x 100}
+([x] (+ x a)) (+ x a)
++
+Error: Don't know how to create ISeq from: clojure.lang.Symbol
+Environment: {a 5, adds-a #object[hw6.core$my_eval$fn__22090 0x726c059 hw6.core$my_eval$fn__22090@726c059]}
+nil
+H]=> def
+Environment: {a 5, adds-a #object[hw6.core$my_eval$fn__22090 0x726c059 hw6.core$my_eval$fn__22090@726c059]}
+a
+H]=> defn
+Environment: {a 5, adds-a #object[hw6.core$my_eval$fn__22090 0x62a27bcd hw6.core$my_eval$fn__22090@62a27bcd]}
+adds-a
+H]=> let
+{:environment {a 5, adds-a #object[hw6.core$my_eval$fn__22090 0x62a27bcd hw6.core$my_eval$fn__22090@62a27bcd]}, a 10} ((adds-a 100))
+(adds-a 100)
+adds-a
+{:environment {a 5, adds-a #object[hw6.core$my_eval$fn__22090 0x62a27bcd hw6.core$my_eval$fn__22090@62a27bcd]}, a 10, x 100}
+([x] (+ x a)) (+ x a)
++
+Error: Don't know how to create ISeq from: clojure.lang.Symbol
+Environment: {a 5, adds-a #object[hw6.core$my_eval$fn__22090 0x62a27bcd hw6.core$my_eval$fn__22090@62a27bcd]}
+nil
+H]=> let
+{:environment {a 5, adds-a #object[hw6.core$my_eval$fn__22090 0x62a27bcd hw6.core$my_eval$fn__22090@62a27bcd]}, a 10} ((adds-a 100))
+(adds-a 100)
+adds-a
+{:environment {a 5, adds-a #object[hw6.core$my_eval$fn__22090 0x62a27bcd hw6.core$my_eval$fn__22090@62a27bcd]}, a 10, x 100}
+([x] (+ x a)) (+ x a)
++
+Error: Don't know how to create ISeq from: clojure.lang.Symbol
+Environment: {a 5, adds-a #object[hw6.core$my_eval$fn__22090 0x62a27bcd hw6.core$my_eval$fn__22090@62a27bcd]}
+nil
+H]=> ; Evaluating file: core.clj
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> def
+Environment: {a 5}
+a
+H]=> defn
+Environment: {a 5, adds-a #object[hw6.core$my_eval$fn__22324 0x74d9d18e hw6.core$my_eval$fn__22324@74d9d18e]}
+adds-a
+H]=> let
+{:environment {a 5, adds-a #object[hw6.core$my_eval$fn__22324 0x74d9d18e hw6.core$my_eval$fn__22324@74d9d18e]}, a 10} ((adds-a 100))
+(adds-a 100)
+adds-a
+{:environment {a 5, adds-a #object[hw6.core$my_eval$fn__22324 0x74d9d18e hw6.core$my_eval$fn__22324@74d9d18e]}, a 10, x 100}
+([x] (+ x a)) (+ x a)
++
+Environment: {a 5, adds-a #object[hw6.core$my_eval$fn__22324 0x74d9d18e hw6.core$my_eval$fn__22324@74d9d18e]}
+110
+H]=> let
+{:environment {a 5, adds-a #object[hw6.core$my_eval$fn__22324 0x74d9d18e hw6.core$my_eval$fn__22324@74d9d18e]}, a 10} ((adds-a a))
+(adds-a a)
+adds-a
+{:environment {a 5, adds-a #object[hw6.core$my_eval$fn__22324 0x74d9d18e hw6.core$my_eval$fn__22324@74d9d18e]}, a 10, x 10}
+([x] (+ x a)) (+ x a)
++
+Environment: {a 5, adds-a #object[hw6.core$my_eval$fn__22324 0x74d9d18e hw6.core$my_eval$fn__22324@74d9d18e]}
+20
+H]=> let
+{:environment {a 5, adds-a #object[hw6.core$my_eval$fn__22324 0x74d9d18e hw6.core$my_eval$fn__22324@74d9d18e]}, a 10} ((adds-a a))
+(adds-a a)
+adds-a
+{:environment {a 5, adds-a #object[hw6.core$my_eval$fn__22324 0x74d9d18e hw6.core$my_eval$fn__22324@74d9d18e]}, a 10, x 10}
+([x] (+ x a)) (+ x a)
++
+Environment: {a 5, adds-a #object[hw6.core$my_eval$fn__22324 0x74d9d18e hw6.core$my_eval$fn__22324@74d9d18e]}
+20
+H]=> def
+Environment: {a 5, adds-a #object[hw6.core$my_eval$fn__22324 0x74d9d18e hw6.core$my_eval$fn__22324@74d9d18e]}
+a
+H]=> defn
+Environment: {a 5, adds-a #object[hw6.core$my_eval$fn__22324 0x6204ef52 hw6.core$my_eval$fn__22324@6204ef52]}
+adds-a
+H]=> let
+{:environment {a 5, adds-a #object[hw6.core$my_eval$fn__22324 0x6204ef52 hw6.core$my_eval$fn__22324@6204ef52]}, a 10} ((adds-a 100))
+(adds-a 100)
+adds-a
+{:environment {a 5, adds-a #object[hw6.core$my_eval$fn__22324 0x6204ef52 hw6.core$my_eval$fn__22324@6204ef52]}, a 10, x 100}
+([x] (+ x a)) (+ x a)
++
+Environment: {a 5, adds-a #object[hw6.core$my_eval$fn__22324 0x6204ef52 hw6.core$my_eval$fn__22324@6204ef52]}
+110
+H]=> let
+{:environment {a 5, adds-a #object[hw6.core$my_eval$fn__22324 0x6204ef52 hw6.core$my_eval$fn__22324@6204ef52]}, a 10} ((adds-a a))
+(adds-a a)
+adds-a
+{:environment {a 5, adds-a #object[hw6.core$my_eval$fn__22324 0x6204ef52 hw6.core$my_eval$fn__22324@6204ef52]}, a 10, x 10}
+([x] (+ x a)) (+ x a)
++
+Environment: {a 5, adds-a #object[hw6.core$my_eval$fn__22324 0x6204ef52 hw6.core$my_eval$fn__22324@6204ef52]}
+20
+H]=> Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> def
+Environment: {a 5}
+a
+H]=> defn
+Environment: {a 5, adds-a #object[hw6.core$my_eval$fn__22442 0x7710b3c6 hw6.core$my_eval$fn__22442@7710b3c6]}
+adds-a
+H]=> let
+{:environment {a 5, adds-a #object[hw6.core$my_eval$fn__22442 0x7710b3c6 hw6.core$my_eval$fn__22442@7710b3c6]}, a 10} ((adds-a 100))
+(adds-a 100)
+adds-a
+{:environment {a 5, adds-a #object[hw6.core$my_eval$fn__22442 0x7710b3c6 hw6.core$my_eval$fn__22442@7710b3c6]}, a 10, x 100}
+([x] (+ x a)) (+ x a)
++
+Environment: {a 5, adds-a #object[hw6.core$my_eval$fn__22442 0x7710b3c6 hw6.core$my_eval$fn__22442@7710b3c6]}
+110
+H]=> let
+{:environment {a 5, adds-a #object[hw6.core$my_eval$fn__22442 0x7710b3c6 hw6.core$my_eval$fn__22442@7710b3c6]}, a 10} ((adds-a a))
+(adds-a a)
+adds-a
+{:environment {a 5, adds-a #object[hw6.core$my_eval$fn__22442 0x7710b3c6 hw6.core$my_eval$fn__22442@7710b3c6]}, a 10, x 10}
+([x] (+ x a)) (+ x a)
++
+Environment: {a 5, adds-a #object[hw6.core$my_eval$fn__22442 0x7710b3c6 hw6.core$my_eval$fn__22442@7710b3c6]}
+20
+H]=> ; Evaluating file: core.clj
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+(repl)
+H]=> def
+Environment: {a 5}
+a
+H]=> defn
+Environment: {a 5, adds-a #object[hw6.core$my_eval$fn__22560 0x467f9195 hw6.core$my_eval$fn__22560@467f9195]}
+adds-a
+H]=> ; Execution error at hw6.core/repl (core.clj:179).
+; EOF while reading
+clj꞉hw6.core꞉> (repl)
+H]=> def
+Environment: {a 5}
+a
+H]=> defn
+Environment: {a 5, adds-a #object[hw6.core$my_eval$fn__22560 0x59de3140 hw6.core$my_eval$fn__22560@59de3140]}
+adds-a
+H]=> ; Execution error at hw6.core/repl (core.clj:179).
+; EOF while reading
+clj꞉hw6.core꞉> 
+(repl)
+H]=> def
+Environment: {a 5}
+a
+H]=> defn
+Environment: {a 5, adds-a #object[hw6.core$my_eval$fn__22560 0xf2192a7 hw6.core$my_eval$fn__22560@f2192a7]}
+adds-a
+H]=> let
+{:environment {a 5, adds-a #object[hw6.core$my_eval$fn__22560 0xf2192a7 hw6.core$my_eval$fn__22560@f2192a7]}, a 10} ((adds-a 100))
+(adds-a 100)
+adds-a
+{:environment {a 5, adds-a #object[hw6.core$my_eval$fn__22560 0xf2192a7 hw6.core$my_eval$fn__22560@f2192a7]}, a 10, x 100}
+([x] (+ x a)) (+ x a)
++
+Environment: {a 5, adds-a #object[hw6.core$my_eval$fn__22560 0xf2192a7 hw6.core$my_eval$fn__22560@f2192a7]}
+105
+H]=> let
+{:environment {a 5, adds-a #object[hw6.core$my_eval$fn__22560 0xf2192a7 hw6.core$my_eval$fn__22560@f2192a7]}, a 10} ((adds-a a))
+(adds-a a)
+adds-a
+{:environment {a 5, adds-a #object[hw6.core$my_eval$fn__22560 0xf2192a7 hw6.core$my_eval$fn__22560@f2192a7]}, a 10, x 5}
+([x] (+ x a)) (+ x a)
++
+Environment: {a 5, adds-a #object[hw6.core$my_eval$fn__22560 0xf2192a7 hw6.core$my_eval$fn__22560@f2192a7]}
+10
+H]=> defn
+Environment: {a 5, adds-a #object[hw6.core$my_eval$fn__22560 0xf2192a7 hw6.core$my_eval$fn__22560@f2192a7], third #object[hw6.core$my_eval$fn__22560 0xbfeab8e hw6.core$my_eval$fn__22560@bfeab8e]}
+third
+H]=> third
+quote
+{:environment {a 5, adds-a #object[hw6.core$my_eval$fn__22560 0xf2192a7 hw6.core$my_eval$fn__22560@f2192a7], third #object[hw6.core$my_eval$fn__22560 0xbfeab8e hw6.core$my_eval$fn__22560@bfeab8e]}, coll (9 2 8 1 7)}
+([coll] (first (rest (rest coll)))) (first (rest (rest coll)))
+first
+rest
+rest
+Environment: {a 5, adds-a #object[hw6.core$my_eval$fn__22560 0xf2192a7 hw6.core$my_eval$fn__22560@f2192a7], third #object[hw6.core$my_eval$fn__22560 0xbfeab8e hw6.core$my_eval$fn__22560@bfeab8e]}
+8
+H]=> defn
+Environment: {a 5, adds-a #object[hw6.core$my_eval$fn__22560 0xf2192a7 hw6.core$my_eval$fn__22560@f2192a7], third #object[hw6.core$my_eval$fn__22560 0xbfeab8e hw6.core$my_eval$fn__22560@bfeab8e], fact #object[hw6.core$my_eval$fn__22560 0x2c67190f hw6.core$my_eval$fn__22560@2c67190f]}
+fact
+H]=> fact
+{:environment {a 5, adds-a #object[hw6.core$my_eval$fn__22560 0xf2192a7 hw6.core$my_eval$fn__22560@f2192a7], third #object[hw6.core$my_eval$fn__22560 0xbfeab8e hw6.core$my_eval$fn__22560@bfeab8e], fact #object[hw6.core$my_eval$fn__22560 0x2c67190f hw6.core$my_eval$fn__22560@2c67190f]}, n 5}
+([n] (if (= n 0) 1 (* n (fact (- n 1))))) (if (= n 0) 1 (* n (fact (- n 1))))
+if
+=
+=
+*
+fact
+-
+{:environment {a 5, adds-a #object[hw6.core$my_eval$fn__22560 0xf2192a7 hw6.core$my_eval$fn__22560@f2192a7], third #object[hw6.core$my_eval$fn__22560 0xbfeab8e hw6.core$my_eval$fn__22560@bfeab8e], fact #object[hw6.core$my_eval$fn__22560 0x2c67190f hw6.core$my_eval$fn__22560@2c67190f]}, n 4}
+([n] (if (= n 0) 1 (* n (fact (- n 1))))) (if (= n 0) 1 (* n (fact (- n 1))))
+if
+=
+=
+*
+fact
+-
+{:environment {a 5, adds-a #object[hw6.core$my_eval$fn__22560 0xf2192a7 hw6.core$my_eval$fn__22560@f2192a7], third #object[hw6.core$my_eval$fn__22560 0xbfeab8e hw6.core$my_eval$fn__22560@bfeab8e], fact #object[hw6.core$my_eval$fn__22560 0x2c67190f hw6.core$my_eval$fn__22560@2c67190f]}, n 3}
+([n] (if (= n 0) 1 (* n (fact (- n 1))))) (if (= n 0) 1 (* n (fact (- n 1))))
+if
+=
+=
+*
+fact
+-
+{:environment {a 5, adds-a #object[hw6.core$my_eval$fn__22560 0xf2192a7 hw6.core$my_eval$fn__22560@f2192a7], third #object[hw6.core$my_eval$fn__22560 0xbfeab8e hw6.core$my_eval$fn__22560@bfeab8e], fact #object[hw6.core$my_eval$fn__22560 0x2c67190f hw6.core$my_eval$fn__22560@2c67190f]}, n 2}
+([n] (if (= n 0) 1 (* n (fact (- n 1))))) (if (= n 0) 1 (* n (fact (- n 1))))
+if
+=
+=
+*
+fact
+-
+{:environment {a 5, adds-a #object[hw6.core$my_eval$fn__22560 0xf2192a7 hw6.core$my_eval$fn__22560@f2192a7], third #object[hw6.core$my_eval$fn__22560 0xbfeab8e hw6.core$my_eval$fn__22560@bfeab8e], fact #object[hw6.core$my_eval$fn__22560 0x2c67190f hw6.core$my_eval$fn__22560@2c67190f]}, n 1}
+([n] (if (= n 0) 1 (* n (fact (- n 1))))) (if (= n 0) 1 (* n (fact (- n 1))))
+if
+=
+=
+*
+fact
+-
+{:environment {a 5, adds-a #object[hw6.core$my_eval$fn__22560 0xf2192a7 hw6.core$my_eval$fn__22560@f2192a7], third #object[hw6.core$my_eval$fn__22560 0xbfeab8e hw6.core$my_eval$fn__22560@bfeab8e], fact #object[hw6.core$my_eval$fn__22560 0x2c67190f hw6.core$my_eval$fn__22560@2c67190f]}, n 0}
+([n] (if (= n 0) 1 (* n (fact (- n 1))))) (if (= n 0) 1 (* n (fact (- n 1))))
+if
+=
+=
+Error: Cannot invoke "Object.getClass()" because "x" is null
+Error: Cannot invoke "Object.getClass()" because "x" is null
+Error: Cannot invoke "Object.getClass()" because "x" is null
+Error: Cannot invoke "Object.getClass()" because "x" is null
+Error: Cannot invoke "Object.getClass()" because "x" is null
+Environment: {a 5, adds-a #object[hw6.core$my_eval$fn__22560 0xf2192a7 hw6.core$my_eval$fn__22560@f2192a7], third #object[hw6.core$my_eval$fn__22560 0xbfeab8e hw6.core$my_eval$fn__22560@bfeab8e], fact #object[hw6.core$my_eval$fn__22560 0x2c67190f hw6.core$my_eval$fn__22560@2c67190f]}
+nil
+H]=> if
+=
+println
+5
+=
+Environment: {a 5, adds-a #object[hw6.core$my_eval$fn__22560 0xf2192a7 hw6.core$my_eval$fn__22560@f2192a7], third #object[hw6.core$my_eval$fn__22560 0xbfeab8e hw6.core$my_eval$fn__22560@bfeab8e], fact #object[hw6.core$my_eval$fn__22560 0x2c67190f hw6.core$my_eval$fn__22560@2c67190f]}
+nil
+H]=> if
+=
+println
+5
+=
+Environment: {a 5, adds-a #object[hw6.core$my_eval$fn__22560 0xf2192a7 hw6.core$my_eval$fn__22560@f2192a7], third #object[hw6.core$my_eval$fn__22560 0xbfeab8e hw6.core$my_eval$fn__22560@bfeab8e], fact #object[hw6.core$my_eval$fn__22560 0x2c67190f hw6.core$my_eval$fn__22560@2c67190f]}
+nil
+H]=> ; Evaluating file: core.clj
+(repl)
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+H]=> clj꞉hw6.core꞉> 
+if
+=
+println
+5
+=
+Environment: {}
+nil
+H]=> Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> 5
+Environment: {}
+nil
+H]=> 5
+Environment: {}
+nil
+H]=> ; Evaluating file: core.clj
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+(repl)
+H]=> 5
+Environment: {}
+nil
+H]=> Environment: {add-5 #object[hw6.core$my_eval$fn__22918 0x485de1c7 hw6.core$my_eval$fn__22918@485de1c7]}
+add-5
+H]=> Environment: {add-5 #object[hw6.core$my_eval$fn__22918 0x485de1c7 hw6.core$my_eval$fn__22918@485de1c7]}
+nil
+H]=> Error: Cannot invoke "Object.getClass()" because "x" is null
+Error: Cannot invoke "Object.getClass()" because "x" is null
+Environment: {add-5 #object[hw6.core$my_eval$fn__22918 0x485de1c7 hw6.core$my_eval$fn__22918@485de1c7]}
+nil
+H]=> Error: Cannot invoke "Object.getClass()" because "x" is null
+Environment: {add-5 #object[hw6.core$my_eval$fn__22918 0x485de1c7 hw6.core$my_eval$fn__22918@485de1c7]}
+nil
+H]=> Environment: {add-5 #object[hw6.core$my_eval$fn__22918 0x485de1c7 hw6.core$my_eval$fn__22918@485de1c7]}
+25
+H]=> Environment: {add-5 #object[hw6.core$my_eval$fn__22918 0x485de1c7 hw6.core$my_eval$fn__22918@485de1c7]}
+25
+H]=> Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+clj꞉hw6.core꞉> 
+; nREPL Connection was closed
+; Connecting using "Generic" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Connecting ...
+; Reading port file: file:///Users/userr/Downloads/hw6/.nrepl-port ...
+; Using host:port localhost:52408 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉> 
+(in-ns 'hw6.core)
+#object[clojure.lang.Namespace 0x2818b5a1 "hw6.core"]
+clj꞉hw6.core꞉> 
+(repl)
+H]=> Environment: {x 3}
+x
+H]=> Environment: {x 3}
+4
+H]=> Environment: {x 3, y 300}
+y
+H]=> ; nREPL Connection was closed
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
