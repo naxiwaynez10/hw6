@@ -3748,4 +3748,712 @@ H]=> ((989))
 19
 Environment: nil
 nil
+H]=> ; Evaluating file: core.clj
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+(repl)
+H]=> clojure.lang.PersistentList
+Environment: {a 6}
+a
+H]=> clojure.lang.PersistentList
+Environment: {a 6, m {:func #object[hw6.core$my_eval$fn__10650 0x5b6fa54f hw6.core$my_eval$fn__10650@5b6fa54f]}}
+m
+H]=> Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> (int 1.6)
+Environment: {a 78}
+a
+H]=> ; Evaluating file: core.clj
+(repl)
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+H]=> clj꞉hw6.core꞉> 
+(int 1.6)
+Environment: {a 89}
+a
+H]=> Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> #'hw6.core/c
+Environment: {a 78}
+a
+H]=> Environment: {a 78}
+nil
+H]=> ; Evaluating file: core.clj
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+(repl)
+H]=> Environment: {a 90}
+a
+H]=> Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> nil
+Environment: {a 890}
+a
+H]=> Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+clj꞉hw6.core꞉> 
+(vector (map-indexed #(when (even? %) %2) args))
+; Syntax error compiling at (.calva/output-window/output.calva-repl:3827:9).
+; Unable to resolve symbol: args in this context
+clj꞉hw6.core꞉> (repl)
+H]=> nil
+Environment: {a 9}
+a
+H]=> nil
+Environment: {a 9, b 7}
+b
+H]=> Environment: {a 9, b 7}
+[[a 2] [b 3] [3 4]]
+H]=> nil
+Environment: {a 9, b 7}
+[[x 2] [y 3] [z 4]]
+H]=> nil
+Environment: {a 9, b 7}
+[a 2 [b 3] [3 4]]
+H]=> nil
+Environment: {a 9, b 7}
+[a 2 [b 3] [3 4]]
+H]=> nil
+Environment: nil
+([a 2] 3 b)
+H]=> ; Evaluating file: core.clj
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+clj꞉hw6.core꞉> 
+(#'hw6.core/main
+rclj꞉hw6.core꞉> (repl)
+H]=> ; Execution error (StackOverflowError) at hw6.core/my-eval (core.clj:22).
+; null
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> {}
+Environment: {m {:func #object[hw6.core$my_eval$fn__10937 0x111b8835 hw6.core$my_eval$fn__10937@111b8835]}}
+m
+H]=> ; Evaluating file: core.clj
+(repl)
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+H]=> clj꞉hw6.core꞉> 
+{}
+Environment: {m {:func #object[hw6.core$my_eval$fn__10937 0xf8107c8 hw6.core$my_eval$fn__10937@f8107c8]}}
+m
+H]=> ; Evaluating file: core.clj
+(repl)
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+H]=> #'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+; Execution error (StackOverflowError) at hw6.core/my-eval (core.clj:38).
+; null
+clj꞉hw6.core꞉> 
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> {}
+Environment: {m {:func #object[hw6.core$my_eval$fn__11057 0x308dd9e0 hw6.core$my_eval$fn__11057@308dd9e0]}}
+m
+H]=> ; Evaluating file: core.clj
+(repl)
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+H]=> clj꞉hw6.core꞉> 
+{}
+Environment: {m {:func #object[hw6.core$my_eval$fn__11057 0x3b05542c hw6.core$my_eval$fn__11057@3b05542c]}}
+m
+H]=> Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> 100
+Environment: {m {:func #object[hw6.core$my_eval$fn__11137 0x430c6a89 hw6.core$my_eval$fn__11137@430c6a89]}}
+m
+H]=> ; Evaluating file: core.clj
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+(repl)
+H]=> false
+Environment: {m {:func #object[hw6.core$my_eval$fn__11177 0x4e584a2a hw6.core$my_eval$fn__11177@4e584a2a]}}
+m
+H]=> ; Evaluating file: core.clj
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> false
+Environment: {nass {:func #object[hw6.core$my_eval$fn__11297 0x48e570c0 hw6.core$my_eval$fn__11297@48e570c0], :bindings {}}}
+nass
+H]=> false
+false
+nil nil nilEnvironment: nil
+nil
+H]=> ; Evaluating file: core.clj
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+(repl)
+H]=> false
+Environment: {nass {:func #object[hw6.core$my_eval$fn__11367 0x12383dfa hw6.core$my_eval$fn__11367@12383dfa], :bindings {}}}
+nass
+H]=> ; Evaluating file: core.clj
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+(repl)
+H]=> false
+Environment: {nass {:func #object[hw6.core$my_eval$fn__11439 0x4b587a9e hw6.core$my_eval$fn__11439@4b587a9e], :bindings {}}}
+nass
+H]=> false
+false
+nil nil nilEnvironment: nil
+nil
+H]=> false
+Environment: {nass {:func #object[hw6.core$my_eval$fn__11439 0x7dba47ef hw6.core$my_eval$fn__11439@7dba47ef], :bindings {}}}
+nass
+H]=> false
+false
+nil nil nilEnvironment: nil
+nil
+H]=> false
+Environment: {nass {:func #object[hw6.core$my_eval$fn__11439 0x4b3987ac hw6.core$my_eval$fn__11439@4b3987ac], :bindings {}}}
+nass
+H]=> false
+false
+0 8 9Environment: nil
+nil
+H]=> false
+Error: Cannot invoke "clojure.lang.IFn.applyTo(clojure.lang.ISeq)" because "f" is null
+Environment: nil
+nil
+H]=> false
+false
+Hello
+Error: Parameter declaration missing
+Environment: nil
+nil
+H]=> false
+false
+Nothing
+Error: Parameter declaration missing
+Environment: nil
+nil
+H]=> ; Evaluating file: core.clj
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> false
+false
+Error: Cannot invoke "Object.getClass()" because "x" is null
+Error: Wrong number of args (2) passed to: clojure.core/let
+Environment: nil
+nil
+H]=> false
+false
+Error: Cannot invoke "Object.getClass()" because "x" is null
+Error: Wrong number of args (2) passed to: clojure.core/let
+Environment: nil
+nil
+H]=> ; Evaluating file: core.clj
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+(repl)
+H]=> #'hw6.core/n
+Environment: {p 90}
+p
+H]=> ; Evaluating file: core.clj
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+(repl)
+H]=> {}
+Environment: {}
+5
+H]=> {}
+Environment: {h 89}
+h
+H]=> ; Evaluating file: core.clj
+(repl)
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+H]=> clj꞉hw6.core꞉> 
+{}
+Environment: {b 89}
+b
+H]=> ; Evaluating file: core.clj
+Sending interrupt.; Evaluation was interrupted
+(rep)clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+(repl)
+H]=> {}
+Environment: {}
+7
+H]=> ; Evaluating file: core.clj
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+clj꞉hw6.core꞉> 
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(def b 89)
+#'hw6.core/b
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> ; Execution error (StackOverflowError) at hw6.core/my-eval (core.clj:38).
+; null
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> {}
+Environment: {g 7}
+g
+H]=> ; Evaluating file: core.clj
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+clj꞉hw6.core꞉> 
+()#'hw6.core/main
+clj꞉hw6.core꞉> 
+(def g 6 )
+#'hw6.core/g
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+ 
+H]=> 93.0
+Environment: {r 90}
+r
+H]=> ; Evaluating file: core.clj
+(repl)
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+H]=> clj꞉hw6.core꞉> 
+93.0
+Environment: {mm 89}
+mm
+H]=> Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> {}
+Environment: {t 90}
+t
+H]=> ; Evaluating file: core.clj
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+(repl)
+H]=> ; Execution error (StackOverflowError) at hw6.core/my-eval (core.clj:29).
+; null
+clj꞉hw6.core꞉> 
+(repl)
+H]=> ; Execution error (StackOverflowError) at hw6.core/my-eval (core.clj:29).
+; null
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(def h 0)
+#'hw6.core/h
+clj꞉hw6.core꞉> 
+h
+0
+clj꞉hw6.core꞉> 
+(repl)
+H]=> {}
+Environment: {}
+78
+H]=> {}
+{}
+nil nil
+Error: Wrong number of args (2) passed to: clojure.core/let
+Environment: nil
+nil
+H]=> ; Evaluating file: core.clj
+; Evaluating file: core.clj
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> Environment: nil
+(x 3
+y 5
+nil nil)
+H]=> Environment: nil
+(a 4
+g 7
+nil nil)
+H]=> Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> Environment: nil
+#object[hw6.core$my_eval$fn__12749 0x7588a0b hw6.core$my_eval$fn__12749@7588a0b]
+H]=> ; Evaluating file: core.clj
+(let [a 1 b 3 c 5 d 7])
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+nil
+clj꞉hw6.core꞉> 
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+(repl)
+H]=> Environment: nil
+(a 1
+b 3
+c 5
+d 7
+nil nil nil nil)
+H]=> Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> Environment: nil
+{:environment {383 {:bindings {a 3, b 5, c 7, d 8}}}}
+H]=> Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> They equals
+Environment: nil
+nil
+H]=> Environment: nil
+false
+H]=> Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+clj꞉hw6.core꞉> 
+(repl)
+H]=> Environment: nil
+{:environment {1678 {:bindings {x 2, y 3, z 6, a 6}}}}
+H]=> Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> ; Execution error (NullPointerException) at hw6.core/my-eval$fn$fn (core.clj:132).
+; Cannot invoke "java.util.concurrent.Future.get()" because "fut" is null
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> ; Execution error (NullPointerException) at hw6.core/my-eval$fn$fn (core.clj:132).
+; Cannot invoke "java.util.concurrent.Future.get()" because "fut" is null
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> Environment: nil
+{:environment {2295 {:bindings {a 1, b 3, c 4, d 5}}}}
+H]=> ; Evaluating file: core.clj
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> Environment: nil
+{:environment {1966 {:bindings {a 3, b 5, n 4}}}}
+H]=> Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> Environment: nil
+{:environment {nil {:bindings {a 2, b 4, c 5, d 7}}}}
+H]=> ; Evaluating file: core.clj
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+(repl)
+H]=> Environment: nil
+{:environment {a 1, b 3, c 5, d 5}}
+H]=> Environment: {a 4}
+a
+H]=> ; Evaluating file: core.clj
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+(repl)
+H]=> Environment: nil
+{a 3, b 5, c 6}
+H]=> ; Evaluating file: core.clj
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+(repl)
+H]=> nil nil nil nil
+Environment: nil
+nil
+H]=> Environment: {a 3}
+a
+H]=> Environment: {a 3, b 4}
+b
+H]=> 3 4
+Environment: {a 3, b 4}
+nil
+H]=> Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> ; Execution error at hw6.core/repl (core.clj:162).
+; Unmatched delimiter: )
+clj꞉hw6.core꞉> 
+(repl)
+H]=> nil nil
+Environment: nil
+nil
+H]=> nil nil
+Environment: nil
+nil
+H]=> nil nil
+Environment: nil
+nil
+H]=> Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> Environment: nil
+nil
+H]=> ; Evaluating file: core.clj
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> Environment: nil
+nil
+H]=> Environment: nil
+nil
+H]=> ; Evaluating file: core.clj
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+()clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+(repl)
+H]=> Environment: nil
+nil
+H]=> Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> Environment: nil
+nil
+H]=> ; Evaluating file: core.clj
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+clj꞉hw6.core꞉> 
+(repl)
+H]=> Environment: nil
+{a 3, b 4, c 5}
 H]=> 
