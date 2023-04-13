@@ -4456,4 +4456,239 @@ clj꞉hw6.core꞉> 
 (repl)
 H]=> Environment: nil
 {a 3, b 4, c 5}
+H]=> ; Evaluating file: core.clj
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+(repl)
+H]=> Environment: nil
+{a 3, b 4, c 5}
+H]=> ; Evaluating file: core.clj
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+(repl)
+H]=> Environment: nil
+{:environment {}, a 3, b 4, c 5}
+H]=> Environment: {x 5}
+x
+H]=> Environment: {x 5, y 9}
+y
+H]=> Environment: {x 5, y 9, z 7}
+z
+H]=> Environment: nil
+{:environment {x 5, y 9, z 7}, :return z, a 3, b 4, c 5}
+H]=> Environment: nil
+{:return {:environment {x 5, y 9, z 7}, :return z, a 3, b 4, c 5}, a 3, b 4, c 5}
+H]=> ; Evaluating file: core.clj
+(repl)
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+H]=> clj꞉hw6.core꞉> 
+Environment: {x 2}
+x
+H]=> Environment: {x 2, y 5}
+y
+H]=> Environment: {x 2, y 5, z 9}
+z
+H]=> Environment: nil
+{:environment {x 2, y 5, z 9}, :return z, a 3, b 4, c 5}
+H]=> ; Evaluating file: core.clj
+(repl)
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+H]=> #'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+Environment: {x 3}
+x
+H]=> Environment: {x 3, y 5}
+y
+H]=> Environment: {x 3, y 5, z 9}
+z
+H]=> ; Execution error (NullPointerException) at hw6.core/my-eval (core.clj:133).
+; Cannot invoke "clojure.lang.IFn.invoke(Object, Object)" because "f" is null
+clj꞉hw6.core꞉> 
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> ; Execution error (IllegalArgumentException) at hw6.core/my-eval (core.clj:131).
+; Don't know how to create ISeq from: clojure.lang.Symbol
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> Environment: {x 4}
+x
+H]=> Environment: {x 4, y 9}
+y
+H]=> 4
+Error: First argument to defn must be a symbol
+Environment: nil
+nil
+H]=> Environment: {x 8}
+x
+H]=> Environment: {x 8, y 9}
+y
+H]=> 9
+Error: First argument to defn must be a symbol
+Environment: nil
+nil
+H]=> 7
+Error: First argument to defn must be a symbol
+Environment: nil
+nil
+H]=> Environment: {x 8}
+x
+H]=> Environment: {x 8, y 4}
+y
+H]=> Environment: {x 8, y 4, z 7}
+z
+H]=> Environment: nil
+{:environment {x 8, y 4, z 7}, a 3, b 4, c 5}
+H]=> Environment: {m 7}
+m
+H]=> Environment: {m 8}
+m
+H]=> Environment: {m 8, f 88}
+f
+H]=> Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> Environment: {x 7}
+x
+H]=> Environment: {x 7, y 9}
+y
+H]=> Environment: {x 7, y 9, z 5}
+z
+H]=> Environment: nil
+nil
+H]=> ; Evaluating file: core.clj
+(repl)
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+H]=> clj꞉hw6.core꞉> 
+Environment: {x 7}
+x
+H]=> Environment: {x 7, y 6}
+y
+H]=> Environment: {x 7, y 6, z 4}
+z
+H]=> Environment: nil
+nil
+H]=> Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> Environment: {x 8}
+x
+H]=> Environment: {x 8, y 5}
+y
+H]=> Environment: {x 8, y 5, z 3}
+z
+H]=> Environment: nil
+{:environment {x 8, y 5, z 3}, a 3, b 4, c 5}
+H]=> ; Evaluating file: core.clj
+(repl)
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+H]=> clj꞉hw6.core꞉> 
+Environment: {x 5}
+x
+H]=> Environment: {x 5, y 6}
+y
+H]=> Environment: nil
+{:environment {x 5, y 6}, a 5, b 9}
+H]=> Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> Error: no conversion to symbol
+Environment: nil
+nil
+H]=> ; Evaluating file: core.clj
+(repl)
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+H]=> clj꞉hw6.core꞉> 
+Error: no conversion to symbol
+Environment: nil
+nil
+H]=> Environment: {x 7}
+x
+H]=> Error: no conversion to symbol
+Environment: nil
+nil
+H]=> ; Evaluating file: core.clj
+(repl)
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+H]=> clj꞉hw6.core꞉> 
+Error: no conversion to symbol
+Environment: nil
+nil
+H]=> Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> Environment: {x 7}
+x
+H]=> Environment: {x 7, y 7}
+y
+H]=> ((println (+ a b))) {:environment {x 7, y 7}, :return y} {:environment {x 7, y 7}, a 5, b 9}
+Environment: nil
+nil
 H]=> 

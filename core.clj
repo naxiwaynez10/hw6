@@ -125,11 +125,14 @@
 
                               ;;              :return (second expression)}
 
-                              (= f 'let) {:return ((fn []
-                                                     (swap! memory assoc :id (rand-int 4000))
+                              (= f 'let) {:return (do
+                                                    (swap! memory assoc :id (rand-int 4000))
 
-                                                     (into {} (for [[m n] (mapv vector (remove nil? (map-indexed #(when (even? %) %2) (second expression))) (remove nil? (map-indexed #(when (odd? %) %2) (second expression))))] {m n}))))}
-                              ;; (= f 'let) {:result memory}
+                                                    (reset! memory (into {} (for [[m n] (mapv vector (remove nil? (map-indexed #(when (even? %) %2) (second expression))) (remove nil? (map-indexed #(when (odd? %) %2) (second expression))))] {m n})))
+                                                    
+                                                    (reset! memory (conj (dissoc state :return) @memory))
+                                                    (:return (my-eval @memory (drop 2 expression)))
+                                                    )}
 
                               (get env f) {:return ((get-in env [f :func]) (rest expression))}
 
