@@ -3681,3 +3681,71 @@ clj꞉hw6.core꞉> 
 ; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
 ; null
 clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> Environment: {nass {:func #object[hw6.core$my_eval$fn__10450 0x77c57f38 hw6.core$my_eval$fn__10450@77c57f38]}}
+nass
+H]=> ; Evaluating file: core.clj
+(repl)
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+H]=> clj꞉hw6.core꞉> 
+Environment: {nass {:func #object[hw6.core$my_eval$fn__10450 0x5d5e130f hw6.core$my_eval$fn__10450@5d5e130f]}}
+nass
+H]=> Environment: nil
+nil
+H]=> ; Evaluating file: core.clj
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+()#'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> (repl)
+H]=> Environment: {nass {:func #object[hw6.core$my_eval$fn__10530 0x70a105da hw6.core$my_eval$fn__10530@70a105da]}}
+nass
+H]=> yess found!
+Environment: nil
+nil
+H]=> ; Evaluating file: core.clj
+(repl)
+Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+H]=> clj꞉hw6.core꞉> 
+Environment: {nass {:func #object[hw6.core$my_eval$fn__10530 0x1e2b034a hw6.core$my_eval$fn__10530@1e2b034a]}}
+nass
+H]=> yess found!
+Environment: nil
+nil
+H]=> Sending interrupt.; Evaluation was interrupted
+clj꞉hw6.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+clj꞉hw6.core꞉> 
+; Evaluating file: core.clj
+#'hw6.core/main
+clj꞉hw6.core꞉> 
+(repl)
+H]=> Environment: {nass {:func #object[hw6.core$my_eval$fn__10610 0xeec1248 hw6.core$my_eval$fn__10610@eec1248]}}
+nass
+H]=> (())
+19
+Environment: nil
+nil
+H]=> Environment: {nass {:func #object[hw6.core$my_eval$fn__10610 0x55db1fbd hw6.core$my_eval$fn__10610@55db1fbd]}}
+nass
+H]=> ((989))
+19
+Environment: nil
+nil
+H]=> 
