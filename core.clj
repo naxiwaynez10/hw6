@@ -26,107 +26,139 @@
       :return key that stores the result of evaluation
     - expression is the Clojure expression given to the REPL"
   ([state expression] (my-eval state expression nil))
-  ([state expression f] (if-not (seq? expression)
-                             (if (symbol? expression)
-                               (assoc state :return 
-                                      (if f 
-                                        (get-in state [:environment f expression] (get (:environment state) expression)) 
-                                        (get (:environment state) expression)))
-                               
-                               (assoc state :return expression))
+  ([state expression w] (if-not (seq? expression)
+                          (if (symbol? expression)
+                            (assoc state :return
+                                   (get-in state [:environment expression] (get state expression)))
+                                  ;;  (if w
 
-                             (let [env (:environment state)
-                                   f (first expression)
-                                   others (rest expression)
-                                   _maths (fn [op]
-                                            (case op
-                                              + true
-                                              - true
-                                              * true
-                                              / true
-                                              inc  true
-                                              dec true
-                                              quot true
-                                              min true
-                                              max true
-                                              rem true
-                                              mod true
-                                              false))
-                                   _compare (fn [op]
-                                              (case op
-                                                =  true
-                                                == true
-                                                > true
-                                                < true
-                                                not= true
-                                                <= true
-                                                >= true
-                                                compare true
-                                                false))
-                                   _cast (fn [op]
+                                  ;;    (get (:environment state) expression)))
+
+                            (assoc state :return expression))
+
+                          (let [env (:environment state)
+                                memory (atom {})
+                                f (first expression)
+                                others (rest expression)
+                                _maths (fn [op]
+                                         (case op
+                                           + true
+                                           - true
+                                           * true
+                                           / true
+                                           inc  true
+                                           dec true
+                                           quot true
+                                           min true
+                                           max true
+                                           rem true
+                                           mod true
+                                           false))
+                                _compare (fn [op]
                                            (case op
-                                             byte  true
-                                             short true
-                                             long true
-                                             int true
-                                             float true
-                                             double true
-                                             bigdec true
-                                             bigint true
-                                             biginteger true
-                                             num true
-                                             rationalize true
+                                             =  true
+                                             == true
+                                             > true
+                                             < true
+                                             not= true
+                                             <= true
+                                             >= true
+                                             compare true
                                              false))
-                                   _test (fn [op]
-                                           (case op
-                                             nil?  true
-                                             some? true
-                                             indentical? true
-                                             zero? true
-                                             pos? true
-                                             neg? true
-                                             even? true
-                                             odd? true
-                                             false))
-                                   _ratio (fn [op]
-                                            (case op
-                                              numerator  true
-                                              denominator true
-                                              ratio? true
-                                              false))]
+                                _cast (fn [op]
+                                        (case op
+                                          byte  true
+                                          short true
+                                          long true
+                                          int true
+                                          float true
+                                          double true
+                                          bigdec true
+                                          bigint true
+                                          biginteger true
+                                          num true
+                                          rationalize true
+                                          false))
+                                _test (fn [op]
+                                        (case op
+                                          nil?  true
+                                          some? true
+                                          indentical? true
+                                          zero? true
+                                          pos? true
+                                          neg? true
+                                          even? true
+                                          odd? true
+                                          false))
+                                _ratio (fn [op]
+                                         (case op
+                                           numerator  true
+                                           denominator true
+                                           ratio? true
+                                           false))]
 
-                               (cond
-                                 (= f 'quote) {:return (second expression)}
+                            ;; (println (:environment (my-eval state (def q 93) 'k)))
+                            (cond
 
-                                 (= f 'def) {:environment (assoc env
-                                                                 (second expression)
-                                                                 (:return (my-eval state
-                                                                                   (nth expression 2))))
-                                             :return (second expression)}
+                              (= f '?) {:environment (assoc-in env
+                                                               [w :bindings]
+                                                               (:return (my-eval state
+                                                                                 (nth expression 2) w)))
+                                        :return (second expression)}
+                              (= f 'quote) {:environment env
+                                            :return (second expression)}
 
-                                 (= f 'defn) {:environment (assoc env
-                                                                  (second expression)
-                                                                  (fn [& args]
-                                                                    (println args)
-                                                                    (:return (my-eval state (nth expression 3)))))
+                              (= f 'def) {:environment (assoc env
+                                                              (second expression)
+                                                              (:return (my-eval state
+                                                                                (nth expression 2))))
+                                          :return (second expression)}
+
+                              (= f 'defn) {:environment (assoc env
+                                                               (second expression)
+                                                               (fn [& args]
+                                                                 (drop 2 expression)))
 
 
-                                              :return (second expression)}
-                                 (get env f) {:return ((f env) (rest expression))}
+                                           :return (second expression)}
 
-                                 (= f 'cons) (if (= (first (last expression)) 'quote)
+                              (= f 'let) {:environment env
+                                          :return (last (do
+                                                          (reset! memory (into {} (for [[m n] (mapv vector (remove nil? (map-indexed #(when (even? %) %2) (second expression))) (remove nil? (map-indexed #(when (odd? %) (:return (my-eval state  %2))) (second expression))))] {m n})))
 
-                                               {:return (conj (:return (my-eval state (second expression))) (:return (my-eval state (nth expression 2))))}
+                                                          (reset! memory (conj (dissoc state :return) @memory))
 
-                                               {:return (conj (into '() (:return (my-eval state (nth expression 2))))
-                                                              (:return (my-eval state (second expression))))})
-                                 (= f 'if) {:return (if (boolean (:return (my-eval state (second expression))))
-                                                      (:return (my-eval state (nth expression 2)))
-                                                      (:return (my-eval state (nth expression 3))))}
+                                                          (for [exp (drop 2 expression)]
+                                                            (:return (my-eval @memory exp)))))}
 
-                                 :else (try (assoc state :return (apply (resolve (symbol f)) (map #(:return (my-eval state %)) others)))
-                                            (catch Exception e
-                                              (println "Error:" (.getMessage e)))))))))
+                              (get env f) {:environment env
+                                           :return (last (do
+
+                                                           (reset! memory
+                                                                   (into {} (for [[m n] (mapv vector (first ((get env f))) (rest expression))]
+                                                                              {m (:return (my-eval state n))})))
+                                                           (reset! memory (conj (dissoc state :return) @memory))
+                                                           (for [exp (rest ((get env f)))] 
+                                                                 (:return (my-eval @memory exp)))))}
+
+                              (= f 'cons) (if (= (first (last expression)) 'quote)
+
+                                            {:environment env
+                                             :return (conj (:return (my-eval state (second expression))) (:return (my-eval state (nth expression 2))))}
+
+                                            {:return (conj (into '() (:return (my-eval state (nth expression 2))))
+                                                           (:return (my-eval state (second expression))))})
+                              (= f 'if) {:environment env
+                                         :return (do
+                                                   (when (boolean (:return (my-eval state (second expression))))
+                                                     (:return (my-eval state (nth expression 2))))
+
+                                                   (when-not (boolean (:return (my-eval state (second expression))))
+                                                     (:return (my-eval state (nth expression 3)))))}
+
+                              :else (try (assoc state :return (apply (resolve (symbol f)) (map #(:return (my-eval state %)) others)))
+                                         (catch Exception e
+                                           (println "Error:" (.getMessage e)))))))))
 
 
 (defn repl
