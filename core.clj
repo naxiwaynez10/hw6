@@ -138,8 +138,7 @@
                                                                    (into {} (for [[m n] (mapv vector (first ((get env f))) (rest expression))]
                                                                               {m (:return (my-eval state n))})))
                                                            (reset! memory (conj (dissoc state :return) @memory))
-                                                           (for [exp (rest ((get env f)))]
-                                                             
+                                                           (for [exp (rest ((get env f)))] 
                                                                  (:return (my-eval @memory exp)))))}
 
                               (= f 'cons) (if (= (first (last expression)) 'quote)
