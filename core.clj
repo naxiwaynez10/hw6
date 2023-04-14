@@ -127,22 +127,20 @@
                                                           (reset! memory (into {} (for [[m n] (mapv vector (remove nil? (map-indexed #(when (even? %) %2) (second expression))) (remove nil? (map-indexed #(when (odd? %) (:return (my-eval state  %2))) (second expression))))] {m n})))
 
                                                           (reset! memory (conj (dissoc state :return) @memory))
-                                                          
+
                                                           (for [exp (drop 2 expression)]
                                                             (:return (my-eval @memory exp)))))}
 
                               (get env f) {:environment env
                                            :return (last (do
 
-                                                           (reset! memory 
-                                                           (into {} (for [[m n] (mapv vector (first ((get env f))) (rest expression))]
-                                                                      {m (:return (my-eval state n))}
-                                                                      )))
+                                                           (reset! memory
+                                                                   (into {} (for [[m n] (mapv vector (first ((get env f))) (rest expression))]
+                                                                              {m (:return (my-eval state n))})))
                                                            (reset! memory (conj (dissoc state :return) @memory))
-                                                          ;;  (println @memory)
                                                            (for [exp (rest ((get env f)))]
-                                                             (do (println ((get env f)) exp)
-                                                                 (:return (my-eval @memory exp))))))}
+                                                             
+                                                                 (:return (my-eval @memory exp)))))}
 
                               (= f 'cons) (if (= (first (last expression)) 'quote)
 
@@ -153,11 +151,11 @@
                                                            (:return (my-eval state (second expression))))})
                               (= f 'if) {:environment env
                                          :return (do
-                                                    (when (boolean (:return (my-eval state (second expression))))
-                                                      (:return (my-eval state (nth expression 2))))
+                                                   (when (boolean (:return (my-eval state (second expression))))
+                                                     (:return (my-eval state (nth expression 2))))
 
-                                                    (when-not (boolean (:return (my-eval state (second expression))))
-                                                      (:return (my-eval state (nth expression 3)))))}
+                                                   (when-not (boolean (:return (my-eval state (second expression))))
+                                                     (:return (my-eval state (nth expression 3)))))}
 
                               :else (try (assoc state :return (apply (resolve (symbol f)) (map #(:return (my-eval state %)) others)))
                                          (catch Exception e
